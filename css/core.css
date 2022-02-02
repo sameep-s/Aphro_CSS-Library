@@ -2,9 +2,9 @@
 
 :root {
   --primary: #12b9e0;
-  --light-primary: #b8edfc;
+  --light-primary: #b8edfc7a;
   --dark-primary: #0797b8;
-  --secondary: #f0ecece7;
+  --secondary: #fdffff;
   --success: #51ff49;
   --warning: #faff49;
   --danger: #ff4949;
@@ -51,6 +51,10 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+}
+
+li {
+  list-style: none;
 }
 
 /* 

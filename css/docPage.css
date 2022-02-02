@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Work+Sans:wght@100&display=swap");
+
 .topbar-container {
   position: fixed;
   top: 0;
@@ -24,6 +26,8 @@
 
 .topbar-logo {
   transition: 100ms;
+  font-family: "Comforter", cursive;
+
   font-weight: 550;
 }
 
@@ -33,4 +37,57 @@
 
 .git-logo {
   height: 4rem;
+}
+
+/* topbar over */
+
+.main-wrapper {
+  margin-top: 6rem;
+  display: grid;
+  height: calc(100vh - 6rem);
+  grid-template-columns: 300px auto;
+  overflow-y: auto;
+}
+
+.sidebar-wrapper {
+  border-right: 0.1rem solid var(--dark);
+}
+
+.sidebar-content {
+  position: fixed;
+  overflow-y: auto;
+  width: 300px;
+  padding: 2rem;
+}
+
+.sidebar-heading {
+  font-size: 3rem;
+}
+
+.link-container {
+  font-size: 2rem;
+  font-family: "Work Sans", sans-serif;
+  color: var(--darker);
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+li {
+  margin-bottom: 1rem;
+  transition: 250ms;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+li:hover {
+  background-color: var(--light-primary);
+}
+
+.main-body {
+  padding: 2rem;
+  background-color: var(--secondary);
+}
+
+.body-heading {
+  font-size: 5rem;
 }
