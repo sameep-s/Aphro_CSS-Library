@@ -1,0 +1,36 @@
+.topbar-container {
+  position: fixed;
+  top: 0;
+  height: 6rem;
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.topbar-left-container {
+  display: flex;
+  margin-left: 1rem;
+  align-items: center;
+}
+.topbar-right-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.topbar-logo {
+  transition: 100ms;
+  font-weight: 550;
+}
+
+.topbar-logo:hover {
+  color: var(--light);
+}
+
+.git-logo {
+  height: 4rem;
+}
