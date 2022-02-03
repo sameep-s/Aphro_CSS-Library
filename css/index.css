@@ -10,7 +10,7 @@
   height: 6rem;
   width: 100%;
   background-color: var(--primary);
-  color: white;
+  color: var(--light);
   padding: 1.5rem;
   font-size: 2.5rem;
   display: flex;
@@ -24,13 +24,13 @@
 }
 
 .topbar-logo {
-  transition: 100ms;
+  transition: 250ms;
   font-family: "Comforter", cursive;
   font-weight: 550;
 }
 
 .topbar-logo:hover {
-  color: var(--light);
+  color: white;
 }
 
 .content-wrapper {

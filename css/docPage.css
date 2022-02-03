@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Comforter&family=Work+Sans:wght@100&display=swap");
 
+/* ------------------------------------- topbar css ---------------------------------- */
 .topbar-container {
   position: fixed;
   top: 0;
   height: 6rem;
   width: 100%;
   background-color: var(--primary);
-  color: white;
+  color: var(--light);
   padding: 1.5rem;
   font-size: 2.5rem;
   display: flex;
@@ -25,39 +26,41 @@
 }
 
 .topbar-logo {
-  transition: 100ms;
+  transition: 250ms;
   font-family: "Comforter", cursive;
 
   font-weight: 550;
 }
 
 .topbar-logo:hover {
-  color: var(--light);
+  color: white;
 }
 
 .git-logo {
   height: 4rem;
 }
 
-/* topbar over */
+/* ----------------------------- main -------------------------- */
 
 .main-wrapper {
   margin-top: 6rem;
   display: grid;
   height: calc(100vh - 6rem);
   grid-template-columns: 300px auto;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
+/* ------------------------------------------ Sidebar CSS -------------------------- */
 .sidebar-wrapper {
   border-right: 0.1rem solid var(--dark);
 }
 
 .sidebar-content {
   position: fixed;
-  overflow-y: auto;
   width: 300px;
   padding: 2rem;
+  height: 90%;
+  overflow-y: scroll;
 }
 
 .sidebar-heading {
@@ -69,7 +72,7 @@
   font-family: "Work Sans", sans-serif;
   color: var(--darker);
   width: 100%;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 li {
@@ -81,13 +84,38 @@ li {
 
 li:hover {
   background-color: var(--light-primary);
+  color: black !important;
 }
+
+/* ------------------------------------------ body css----------------------------- */
 
 .main-body {
   padding: 2rem;
   background-color: var(--secondary);
 }
 
-.body-heading {
-  font-size: 5rem;
+.body-block {
+  margin: 0 0 4rem 0;
+}
+
+.block-heading {
+  font-size: 3rem;
+}
+
+.block-desc {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-family: Work Sans, sans-serif;
+  font-weight: bold;
+  line-height: 140%;
+  letter-spacing: 0.2rem;
+}
+
+.hLight {
+  color: var(--code-link);
+}
+
+.code-block {
+  width: 100%;
+  display: grid;
 }

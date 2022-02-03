@@ -9,8 +9,9 @@
   --warning: #faff49;
   --danger: #ff4949;
   --light: #f3ecec;
-  --dark: #adadada8;
+  --dark: #e6dedea8;
   --darker: #585757;
+  --code-link: rgb(226, 81, 81);
   --font-heading: "Raleway", sans-serif;
   --font-body: "Oxygen", sans-serif;
 }
@@ -57,10 +58,44 @@ li {
   list-style: none;
 }
 
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 1.9rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d1e1e7f1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+pre {
+  /* white-space: pre-wrap; */
+
+  display: grid;
+  width: 100%;
+  font-size: 2rem;
+}
+
 /* 
     <!-- material icons -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+
 */
