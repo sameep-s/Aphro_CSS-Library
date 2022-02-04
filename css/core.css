@@ -26,6 +26,13 @@ html {
   font-family: var(--font-body);
 }
 
+i {
+  font-size: 4rem !important;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
 hr {
   border-top: none;
   border-left: none;
