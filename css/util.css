@@ -1,0 +1,283 @@
+/* utility css file */
+
+/*------------------------------ padding */
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+/* padding top */
+.pt-1 {
+  padding: 1rem;
+}
+
+.pt-2 {
+  padding: 2rem;
+}
+
+.pt-3 {
+  padding: 3rem;
+}
+
+.pt-4 {
+  padding: 4rem;
+}
+
+/* padding right */
+.pr-1 {
+  padding: 1rem;
+}
+
+.pr-2 {
+  padding: 2rem;
+}
+
+.pr-3 {
+  padding: 3rem;
+}
+
+.pr-4 {
+  padding: 4rem;
+}
+
+/* padding bottom */
+.pb-1 {
+  padding: 1rem;
+}
+
+.pb-2 {
+  padding: 2rem;
+}
+
+.pb-3 {
+  padding: 3rem;
+}
+
+.pb-4 {
+  padding: 4rem;
+}
+
+/* padding left */
+
+.pl-1 {
+  padding: 1rem;
+}
+
+.pl-2 {
+  padding: 2rem;
+}
+
+.pl-3 {
+  padding: 3rem;
+}
+
+.pl-4 {
+  padding: 4rem;
+}
+
+/*------------------------------------ margin */
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+/* margin top */
+.mt-1 {
+  margin: 1rem;
+}
+
+.mt-2 {
+  margin: 2rem;
+}
+
+.mt-3 {
+  margin: 3rem;
+}
+
+.mt-4 {
+  margin: 4rem;
+}
+
+/* margin right */
+.mr-1 {
+  margin: 1rem;
+}
+
+.mr-2 {
+  margin: 2rem;
+}
+
+.mr-3 {
+  margin: 3rem;
+}
+
+.mr-4 {
+  margin: 4rem;
+}
+
+/* margin bottom */
+.mb-1 {
+  margin: 1rem;
+}
+
+.mb-2 {
+  margin: 2rem;
+}
+
+.mb-3 {
+  margin: 3rem;
+}
+
+.mb-4 {
+  margin: 4rem;
+}
+
+/* margin left */
+
+.ml-1 {
+  margin: 1rem;
+}
+
+.ml-2 {
+  margin: 2rem;
+}
+
+.ml-3 {
+  margin: 3rem;
+}
+
+.ml-4 {
+  margin: 4rem;
+}
+
+/*------------------------------------ wrapper */
+
+.wrapper {
+  width: 100%;
+}
+
+/* -------------------------------------Flex */
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.jc-start {
+  justify-content: start;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-space-btw {
+  justify-content: space-between;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.a-item-center {
+  align-items: center;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* ----------------------------- Grid (12 column system) */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.col-1 {
+  flex: 0 0 calc(100% / 12 * 1);
+}
+
+.col-2 {
+  flex: 0 0 calc(100% / 12 * 2);
+}
+
+.col-3 {
+  flex: 0 0 calc(100% / 12 * 3);
+}
+
+.col-4 {
+  flex: 0 0 calc(100% / 12 * 4);
+}
+
+.col-5 {
+  flex: 0 0 calc(100% / 12 * 5);
+}
+
+.col-6 {
+  flex: 0 0 calc(100% / 12 * 6);
+}
+
+.col-7 {
+  flex: 0 0 calc(100% / 12 * 7);
+}
+
+.col-8 {
+  flex: 0 0 calc(100% / 12 * 8);
+}
+
+.col-9 {
+  flex: 0 0 calc(100% / 12 * 9);
+}
+
+.col-10 {
+  flex: 0 0 calc(100% / 12 * 10);
+}
+
+.col-11 {
+  flex: 0 0 calc(100% / 12 * 11);
+}
+
+.col-12 {
+  flex: 0 0 calc(100% / 12 * 12);
+}
