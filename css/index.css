@@ -35,7 +35,7 @@
 
 .content-wrapper {
   display: flex;
-  min-height: 100%;
+  height: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -43,20 +43,20 @@
 }
 
 .content-bg-image {
-  opacity: 0.35;
-  z-index: -1;
   position: fixed;
+  opacity: 0.09;
+  z-index: -1;
   width: 100%;
 }
 
 .aphro-name {
   font-family: "Comforter", cursive;
-  font-size: 16vw;
+  font-size: 12vw;
   margin-top: 5rem;
 }
 
 .content-desc {
-  max-width: 60%;
+  width: 40%;
   font-size: 2em;
   padding: 2rem;
   font-weight: lighter;
