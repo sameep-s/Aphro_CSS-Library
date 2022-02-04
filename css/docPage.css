@@ -109,13 +109,9 @@ li:hover {
   font-weight: bold;
   line-height: 140%;
   letter-spacing: 0.2rem;
+  width: 100%;
 }
 
 .hLight {
   color: var(--code-link);
-}
-
-.code-block {
-  width: 100%;
-  display: grid;
 }
