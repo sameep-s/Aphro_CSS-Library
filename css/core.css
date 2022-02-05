@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Raleway:wght@500&display=swap");
+@import "./util.css";
 
 :root {
   --primary: #12b9e0;
