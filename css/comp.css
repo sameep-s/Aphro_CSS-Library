@@ -14,6 +14,7 @@
   flex-wrap: wrap;
   justify-content: start;
   margin-bottom: 3rem;
+  align-items: center;
 }
 
 /* ---------------------- Avatar -----------------------*/
@@ -40,4 +41,75 @@
 .avatar-lg {
   height: 12rem;
   width: 12rem;
+}
+
+/*----------------------------------- badges */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.2em;
+  right: 0.5em;
+  top: 0;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.icon-containter {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.badge-icon {
+  color: var(--darker);
+  font-size: 10rem !important;
+}
+
+.badge-st {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.2em;
+  right: 1em;
+  bottom: 0;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.badge-primary {
+  background-color: var(--dark-primary);
+  color: white;
+}
+.badge-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.badge-warning {
+  background-color: var(--warning);
+  color: var(--darker);
+}
+
+.badge-success {
+  background-color: var(--success);
+  color: var(--darker);
+}
+
+.badge-dark {
+  background-color: var(--darker);
+  color: var(--light);
+}
+
+.badge-default {
+  background-color: var(--light);
+  color: black;
 }
