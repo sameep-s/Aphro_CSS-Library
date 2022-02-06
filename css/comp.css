@@ -121,9 +121,8 @@
   justify-content: center;
   align-items: center;
   margin: 0 0.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1rem 1.5rem;
-  justify-content: center;
   border: none;
   cursor: pointer;
   border-radius: 0.5rem;
@@ -137,13 +136,13 @@
 .btn-primary {
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   margin: 0 0.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: white;
   color: var(--dark-primary);
   border: 0.1rem solid var(--dark-primary);
   padding: 1rem 1.5rem;
-  justify-content: center;
   cursor: pointer;
   border-radius: 0.5rem;
   transition: 350ms;
@@ -157,13 +156,13 @@
 .btn-warning {
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   margin: 0 0.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: white;
   color: var(--warning);
   border: 0.1rem solid var(--warning);
   padding: 1rem 1.5rem;
-  justify-content: center;
   cursor: pointer;
   border-radius: 0.5rem;
   transition: 350ms;
@@ -177,14 +176,13 @@
 .btn-danger {
   display: inline-flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: white;
   color: var(--danger);
   border: 0.1rem solid var(--danger);
   padding: 1rem 1.5rem;
-  justify-content: center;
   cursor: pointer;
   border-radius: 0.5rem;
   transition: 350ms;
@@ -198,7 +196,7 @@
 /* -------------Button link */
 
 .btn-link {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 1rem;
   padding-bottom: 0.2rem;
   border-bottom: 0.05rem solid white;
@@ -211,7 +209,7 @@
 
 .btn-link-primary {
   color: var(--dark-primary);
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 1rem;
   padding-bottom: 0.2rem;
   border-bottom: 0.05rem solid white;
@@ -224,7 +222,7 @@
 
 .btn-link-warning {
   color: var(--warning);
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 1rem;
   padding-bottom: 0.2rem;
   border-bottom: 0.05rem solid white;
@@ -238,7 +236,7 @@
 
 .btn-link-danger {
   color: var(--danger);
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 1rem;
   padding-bottom: 0.2rem;
   border-bottom: 0.05rem solid white;
@@ -266,7 +264,7 @@
   justify-content: center;
   align-items: center;
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: var(--dark-primary);
   border: none;
   padding: 1rem 1.5rem;
@@ -275,7 +273,8 @@
   transition: 350ms;
   position: relative;
   z-index: 999;
-  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgb(187, 178, 178);
+  box-shadow: var(--shadow);
+
   transform: 360ms;
 }
 
@@ -291,4 +290,142 @@
 .icon-flt {
   margin: 0 !important;
   padding: 0 !important;
+}
+
+/* -------------------------------------------------------- CARDS */
+
+.card {
+  display: flex;
+  width: 35rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  margin: 5rem;
+  border: 0.1rem solid var(--dark);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  transition: 400ms;
+  border-radius: 1rem 1rem 0 0;
+}
+.card-info:hover {
+  filter: brightness(96%);
+  background-color: var(--secondary);
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.card-title {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  padding: 3rem 2rem 0 2rem;
+}
+
+.card-subtitle {
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  color: var(--darker);
+}
+
+.card-desc {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  color: var(--darker);
+  line-height: 2.4rem;
+  letter-spacing: 0.1ch;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}
+
+/* ------card badge */
+
+.card-badge {
+  top: 1rem;
+  left: 1rem;
+  background-color: var(--danger);
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1rem;
+  border-radius: 5rem;
+}
+
+.card-dismiss {
+  top: 1rem;
+  right: 0;
+  background-color: white;
+  color: var(--darker);
+  font-size: 2.5rem !important;
+  font-weight: bolder;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: 260ms;
+}
+
+.card-dismiss:hover {
+  color: var(--danger);
+}
+
+/* ----------------------------------- Text over media */
+
+.content-overMedia {
+  position: absolute;
+  padding-bottom: 1rem;
+  bottom: 0;
+}
+
+.title-overMedia {
+  font-family: var(--font-heading);
+  font-size: 2vw;
+  padding: 3rem 2rem 0 2rem;
+  color: white;
+}
+
+.card-subtitle-overMedia {
+  padding: 0.5rem 2rem;
+  font-size: 1.5vw;
+  color: white;
+  bottom: 1rem;
+}
+
+/*horizontal card */
+
+.card-hImage {
+  width: 60rem;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-image-hor {
+  width: 100%;
+  border-radius: 1rem 0 0 0;
+}
+
+.card-right-container {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info-hImage {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-buttons-hor {
+  display: flex;
+  margin-top: auto;
+  padding: 2rem;
 }
