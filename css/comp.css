@@ -113,3 +113,182 @@
   background-color: var(--light);
   color: black;
 }
+
+/* ---------------------------------------------- Buttons */
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 350ms;
+}
+
+.btn:hover {
+  background-color: var(--light-primary);
+}
+
+.btn-primary {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  background-color: white;
+  color: var(--dark-primary);
+  border: 0.1rem solid var(--dark-primary);
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 350ms;
+}
+
+.btn-primary:hover {
+  background-color: var(--dark-primary);
+  color: white;
+}
+
+.btn-warning {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  background-color: white;
+  color: var(--warning);
+  border: 0.1rem solid var(--warning);
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 350ms;
+}
+
+.btn-warning:hover {
+  background-color: var(--warning);
+  color: white;
+}
+
+.btn-danger {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  margin: 1rem;
+  font-size: 2rem;
+  background-color: white;
+  color: var(--danger);
+  border: 0.1rem solid var(--danger);
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 350ms;
+}
+
+.btn-danger:hover {
+  background-color: var(--danger);
+  color: white;
+}
+
+/* -------------Button link */
+
+.btn-link {
+  font-size: 2rem;
+  margin: 0 1rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.05rem solid white;
+  transition: 360ms;
+}
+
+.btn-link:hover {
+  border-bottom: 0.05rem solid var(--darker);
+}
+
+.btn-link-primary {
+  color: var(--dark-primary);
+  font-size: 2rem;
+  margin: 0 1rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.05rem solid white;
+  transition: 360ms;
+}
+
+.btn-link-primary:hover {
+  border-bottom: 0.05rem solid var(--dark-primary);
+}
+
+.btn-link-warning {
+  color: var(--warning);
+  font-size: 2rem;
+  margin: 0 1rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.05rem solid white;
+  transition: 360ms;
+}
+
+.btn-link-warning:hover {
+  border-bottom: 0.05rem solid var(--warning);
+  transition: 360ms;
+}
+
+.btn-link-danger {
+  color: var(--danger);
+  font-size: 2rem;
+  margin: 0 1rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.05rem solid white;
+  transition: 360ms;
+}
+
+.btn-link-danger:hover {
+  border-bottom: 0.05rem solid var(--danger);
+}
+
+/*------------- btn-icons */
+
+.btn-icon {
+  font-size: 2.8rem !important;
+  color: var(--darker);
+  margin: 0 0.3rem 0 0 !important;
+}
+
+/* -------------------------------------- floating action button */
+
+.btn-flt {
+  height: 8rem;
+  width: 8rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  font-size: 2rem;
+  background-color: var(--dark-primary);
+  border: none;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 350ms;
+  position: relative;
+  z-index: 999;
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgb(187, 178, 178);
+  transform: 360ms;
+}
+
+.btn-flt:hover {
+  background-color: white;
+  color: var(--dark-primary);
+}
+
+.btn-flt:hover > i {
+  color: var(--dark-primary);
+}
+
+.icon-flt {
+  margin: 0 !important;
+  padding: 0 !important;
+}
