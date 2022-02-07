@@ -429,3 +429,19 @@
   margin-top: auto;
   padding: 2rem;
 }
+
+/* ------------------------------------ images*/
+
+.img-ex-conatiner {
+  width: 30rem;
+  height: 30rem;
+  margin-right: 4rem;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.img-round {
+  border-radius: 50%;
+}
