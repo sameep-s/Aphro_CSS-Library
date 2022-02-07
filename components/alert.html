@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documentation Page-Images</title>
+    <title>Documentation Page-Alerts</title>
     <link rel="stylesheet" href="../css/comp.css" />
     <link
       rel="stylesheet"
@@ -144,28 +144,26 @@
       <div class="main-body">
         <!------------------------------------------ Images -->
         <div class="body-block">
-          <div class="block-heading">Input</div>
+          <div class="block-heading">Alerts</div>
           <hr />
           <div class="block-desc">
-            Inputs are used to collect data from the user, add class <span class="hLight">.inupt-txt</span> to give style to input and <span class="hLight">.input-success</span> or <span class="hLight">.input-danger</span> for different color schemes.
-          </div>
+            Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+        </div>
 
           <!-- Button simple use case -->
           <div class="exapmle-container">
             <div class="elm-container">
-                <div class="input-ex-conatiner">
-                    <input type="text" class="input-txt" placeholder="Enter something..">
-                    <input type="text" class="input-txt input-success ml-4" placeholder="passwords match.">
-                    <input type="text" class="input-txt input-danger ml-4" placeholder="passwords do not match.">
-                </div>
+                <div class="alert">This is a alert message.</div>
+                <div class="alert alert-success">This is a alert message.</div>
+                <div class="alert alert-warning">This is a alert message.</div>
+                <div class="alert alert-danger">This is a alert message.</div>
             </div>
 
             <div class="code-container">
-              <pre><code class="html-plaintext">&ltldiv class="input-ex-conatiner">
-    &ltlinput type="text" class="input-txt" placeholder="Enter something..">
-    &ltlinput type="text" class="input-txt input-success ml-4" placeholder="passwords match">
-    &ltlinput type="text" class="input-txt input-danger ml-4" placeholder="Enter again">
-&ltl/div></code></pre>
+              <pre><code class="html-plaintext">&lt;div class="alert">This is a alert message.&lt;/div>
+&lt;div class="alert alert-success">This is a alert message.&lt;/div>
+&lt;div class="alert alert-warning">This is a alert message.&lt;/div>
+&lt;div class="alert alert-danger">This is a alert message.&lt;/div></code></pre>
         </div>
           </div>
         </div>

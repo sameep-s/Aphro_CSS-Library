@@ -478,3 +478,28 @@
 }
 
 /* --------------------------------------------alert */
+
+.alert {
+  width: 70%;
+  padding: 1.4rem;
+  font-size: 2rem;
+  color: var(--darker);
+  background-color: var(--dark-shade);
+  border: 0.1rem solid var(--dark);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.alert-success {
+  background-color: var(--success-shade);
+}
+
+.alert-danger {
+  background-color: var(--danger-shade);
+}
+
+.alert-warning {
+  background-color: var(--warning-shade);
+}
