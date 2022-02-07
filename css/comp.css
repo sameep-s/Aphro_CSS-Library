@@ -72,5 +72,5 @@
 }
 
 .navbar-logo:hover {
-  color: white;
+  color: var(--dark);
 }
