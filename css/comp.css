@@ -41,3 +41,50 @@
   height: 12rem;
   width: 12rem;
 }
+
+/* ------------------------------------------------Snackbar */
+.snackbar-wrapper {
+  display: flex;
+  background-color: var(--darker);
+  width: 60rem;
+  padding: 1.5rem;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.snack-text {
+  font-size: 1.8rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.snack-btn-wrap {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.snack-btn {
+  display: inline-flex;
+  background-color: transparent;
+  border: none;
+  margin-left: 2rem;
+  font-size: 1.8rem;
+  color: var(--primary);
+  align-items: center;
+  transition: 260ms;
+}
+
+.snack-close {
+  transition: 260ms;
+}
+
+.snack-b1:hover {
+  color: var(--dark-primary);
+}
+
+.snack-close:hover {
+  color: var(--danger) !important;
+}
