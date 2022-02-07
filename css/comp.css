@@ -41,3 +41,27 @@
   height: 12rem;
   width: 12rem;
 }
+
+/* ---------------------------------------Text util */
+
+.txt-container {
+  font-size: 2rem;
+  width: 100%;
+}
+
+.txt-heading {
+  font-family: var(--font-heading) !important;
+  font-size: 4rem;
+}
+
+.txt-sm {
+  font-size: 1.5rem !important;
+}
+
+.txt-grey {
+  color: grey;
+}
+
+.txt-center {
+  text-align: center;
+}
