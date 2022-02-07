@@ -88,3 +88,13 @@
 .snack-close:hover {
   color: var(--danger) !important;
 }
+
+/*-------------------------------------------Slider  */
+
+.slider-wrapper {
+  width: 50rem;
+}
+
+.slider {
+  width: 100%;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation Page-Slider</title>
+    <link rel="stylesheet" href="../css/comp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- topbar -->
+    <div class="topbar-container">
+      <div class="topbar-left-container">
+        <i class="material-icons">menu</i>
+        <a href="../index.html" class="topbar-logo">Aphro-UI</a>
+      </div>
+      <div class="topbar-right-container">
+        <a href="https://github.com/sameep-s/Aphro_CSS-Library"
+          ><img
+            src="../assets/images/git-mark.png"
+            class="git-logo"
+            alt="github-logo"
+        /></a>
+      </div>
+    </div>
+    <div class="main-wrapper">
+      <!-- sidebar -->
+      <div class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <div class="sidebar-heading">Getting Started</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li class="sidebar-list-item">
+                <a href="../components/docPage.html">Introduction</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-heading">Components</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li>
+                <a class="sidebar-list-item" href="../components/avatar.html"
+                  >Avatar</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Badge</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Card</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Image</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Input</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/slider.html"
+                  >Slider</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Snackbar</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Badge</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-heading">Common Utilities</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Display Utilities</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Flex Utilities</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main-body">
+        <!-- Avatar-intro -->
+        <div class="body-block">
+          <div class="block-heading">Slider</div>
+          <hr />
+          <div class="block-desc">
+            Slider are used to help user set a particular range.
+          </div>
+        </div>
+
+        <div class="body-block">
+          <div class="block-heading">Basic Slider</div>
+          <hr />
+          <div class="block-desc">
+            Follow the below mentioned code example to create a slider.
+          </div>
+          <div class="exapmle-container">
+            <div class="elm-container">
+              <div class="slider-wrapper">
+                <input type="range" min="1" max="100" step="1" class="slider" />
+              </div>
+            </div>
+            <div class="code-container">
+              <pre><code class="html-plaintext">&lt;div class="slider-wrapper">
+    &lt;input type="range" min="1" max="1000" step="1" class="slider" />
+&lt;/div></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
