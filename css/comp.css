@@ -109,9 +109,8 @@
 
 .modal-body {
   min-height: 9rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-bottom: 0.1rem solid var(--dark);
-  margin: 1rem 0;
 }
 
 .modal-buttons {
