@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation Page</title>
+    <link rel="stylesheet" href="../css/comp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- topbar -->
+    <div class="topbar-container">
+      <div class="topbar-left-container">
+        <i class="material-icons">menu</i>
+        <a href="../index.html" class="topbar-logo">Aphro-UI</a>
+      </div>
+      <div class="topbar-right-container">
+        <a href="https://github.com/sameep-s/Aphro_CSS-Library"
+          ><img
+            src="../assets/images/git-mark.png"
+            class="git-logo"
+            alt="github-logo"
+        /></a>
+      </div>
+    </div>
+    <div class="main-wrapper">
+      <!-- sidebar -->
+      <div class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <div class="sidebar-heading">Getting Started</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li class="sidebar-list-item">
+                <a href="../components/docPage.html">Introduction</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-heading">Components</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li>
+                <a class="sidebar-list-item" href="../components/avatar.html"
+                  >Avatar</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Badge</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Card</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Image</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Input</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Snackbar</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Badge</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-heading">Common Utilities</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Display Utilities</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Flex Utilities</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main-body">
+        <!-- Avatar-intro -->
+        <div class="body-block">
+          <div class="block-heading">Avatar</div>
+          <hr />
+          <div class="block-desc">
+            Avatars are images that users can set as their profile picture. They
+            can be custom photos, uploaded by users, or generated as Identicons
+            as a placeholder.
+          </div>
+        </div>
+
+        <div class="body-block">
+          <div class="block-heading">Basic Example</div>
+          <hr />
+          <div class="block-desc">
+            Add <span class="inline-code">.avatar</span> class to any
+            <span class="hLight">&lt;img&gt;</span> to make it an avatar.
+          </div>
+          <div class="exapmle-container">
+            <div class="elm-container">
+              <img
+                src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png"
+                alt="image"
+                class="avatar"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar"
+              />
+
+              <img
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar"
+              />
+            </div>
+            <div class="code-container">
+              <pre><code class="html-plaintext">&lt; img src="../../img_source" class="avatar" &gt;</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- square avatars -->
+
+        <div class="body-block">
+          <div class="block-heading">Squared Avatar</div>
+          <hr />
+          <div class="block-desc">
+            Add <span class="inline-code">.avatar-sq</span> class to any
+            <span class="hLight">&lt;img&gt;</span> to make it an avatar with
+            squared-off edges.
+          </div>
+          <div class="exapmle-container">
+            <div class="elm-container">
+              <img
+                src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png"
+                alt="image"
+                class="avatar-sq"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar-sq"
+              />
+
+              <img
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar-sq"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar-sq"
+              />
+            </div>
+            <div class="code-container">
+              <pre><code class="html-plaintext">&lt; img src="../../img_source" class="avatar-sq" &gt;</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- Medium avatars -->
+        <div class="body-block">
+          <div class="block-heading">Medium-Sized Avatar</div>
+          <hr />
+          <div class="block-desc">
+            Add <span class="inline-code">.avatar-md</span> class to any
+            <span class="hLight">&lt;img&gt;</span> to make it a size bigger
+            than the basic avatars.
+          </div>
+          <div class="exapmle-container">
+            <div class="elm-container">
+              <img
+                src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png"
+                alt="image"
+                class="avatar-sq avatar-md"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar-sq avatar-md"
+              />
+
+              <img
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar-sq avatar-md"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar-sq avatar-md"
+              />
+            </div>
+            <div class="code-container">
+              <pre><code class="html-plaintext">&lt; img src="../../img_source" class="avatar-sq avatar-md" &gt;</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- Large Avatars -->
+
+        <div class="body-block">
+          <div class="block-heading">Large Avatar</div>
+          <hr />
+          <div class="block-desc">
+            Add <span class="inline-code">.avatar-lg</span> class to any
+            <span class="hLight">&lt;img&gt;</span> to make it's size larger for
+            large screens.
+          </div>
+          <div class="exapmle-container">
+            <div class="elm-container">
+              <img
+                src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png"
+                alt="image"
+                class="avatar avatar-lg"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar avatar-lg"
+              />
+
+              <img
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar avatar-lg"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                alt="image"
+                class="avatar avatar-lg"
+              />
+            </div>
+            <div class="code-container">
+              <pre><code class="html-plaintext">&lt; img src="../../img_source" class="avatar avatar-lg" &gt;</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- template -->
+        <!-- <div class="body-block">
+          <div class="block-heading"></div>
+          <hr />
+          <div class="block-desc">
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
