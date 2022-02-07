@@ -75,14 +75,14 @@
   margin-bottom: 3rem;
 }
 
-li {
+.list-item-sidebar {
   margin-bottom: 1rem;
   transition: 250ms;
-  padding: 0.5rem;
+  padding: 0.6rem;
   border-radius: 1rem;
 }
 
-li:hover {
+.list-item-sidebar:hover {
   background-color: var(--light-primary);
   color: black !important;
 }
