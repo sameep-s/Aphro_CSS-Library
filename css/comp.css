@@ -445,3 +445,34 @@
 .img-round {
   border-radius: 50%;
 }
+
+/* ----------------------------------------Input */
+
+.input-ex-conatiner {
+  width: 50rem;
+}
+
+.input-txt {
+  padding: 1rem;
+  margin: 0 0 0.5rem 0;
+  font: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  border: 0.1rem solid var(--dark);
+  outline-color: transparent;
+  transition: 400ms;
+}
+
+.input-txt:focus {
+  outline-color: var(--primary);
+  outline-width: 5rem;
+}
+
+.input-success {
+  border: 0.2rem solid var(--success) !important;
+  color: var(--success);
+}
+
+.input-danger {
+  border: 0.2rem solid var(--danger) !important;
+}
