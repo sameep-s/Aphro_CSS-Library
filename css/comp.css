@@ -74,3 +74,48 @@
 .navbar-logo:hover {
   color: var(--dark);
 }
+
+/* ---------------------------------------- Modal */
+
+.modal-wapper {
+  width: 50rem;
+  font-size: 2rem;
+  border: 0.2rem solid var(--dark);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid var(--dark);
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.modal-icon {
+  height: 4rem !important;
+  color: var(--dark);
+  margin-left: auto;
+  transition: 260ms;
+}
+
+.modal-icon:hover {
+  color: black;
+}
+
+.modal-body {
+  min-height: 9rem;
+  padding: 2rem 0;
+  border-bottom: 0.1rem solid var(--dark);
+  margin: 1rem 0;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: end;
+  margin-top: 2rem;
+}
