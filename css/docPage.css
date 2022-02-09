@@ -124,7 +124,6 @@ li:hover {
 .inline-code {
   background-color: var(--dark);
   border-radius: 0.5rem;
-  /* padding: 0.02rem; */
   display: inline-flex;
   align-items: center;
 }
