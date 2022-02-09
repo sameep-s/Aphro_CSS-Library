@@ -41,3 +41,36 @@
   height: 12rem;
   width: 12rem;
 }
+
+/* ------------------------------------- Navbar */
+.navbar-container {
+  top: 0;
+  height: 6rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.877);
+  color: var(--light);
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left-container {
+  display: flex;
+  margin-left: 1rem;
+  align-items: center;
+}
+.navbar-right-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.navbar-logo {
+  transition: 250ms;
+  font-weight: 550;
+}
+
+.navbar-logo:hover {
+  color: var(--dark);
+}
