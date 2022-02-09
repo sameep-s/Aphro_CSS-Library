@@ -1,5 +1,27 @@
 /* utility css file */
 
+/* -----------------------------positioning */
+
+.pos-stat {
+  position: static;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.pos-fix {
+  position: fixed;
+}
+
+.pos-stick {
+  position: sticky;
+}
+
 /*------------------------------ padding */
 
 .p-1 {

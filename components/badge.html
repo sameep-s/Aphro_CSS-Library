@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation Page</title>
+    <link rel="stylesheet" href="../css/comp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- topbar -->
+    <div class="topbar-container">
+      <div class="topbar-left-container">
+        <i class="material-icons">menu</i>
+        <a href="../index.html" class="topbar-logo">Aphro-UI</a>
+      </div>
+      <div class="topbar-right-container">
+        <a href="https://github.com/sameep-s/Aphro_CSS-Library"
+          ><img
+            src="../assets/images/git-mark.png"
+            class="git-logo"
+            alt="github-logo"
+        /></a>
+      </div>
+    </div>
+    <div class="main-wrapper">
+      <!-- sidebar -->
+      <div class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <div class="sidebar-heading">Getting Started</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li class="sidebar-list-item">
+                <a href="../components/docPage.html">Introduction</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-heading">Components</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li>
+                <a class="sidebar-list-item" href="../components/avatar.html"
+                  >Avatar</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/badge.html"
+                  >Badge</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Card</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Image</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Input</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Snackbar</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Badge</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-heading">Common Utilities</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Display Utilities</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Flex Utilities</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-body">
+        <!-- Badge-intro -->
+        <div class="body-block">
+          <div class="block-heading">Badge</div>
+          <hr />
+          <div class="block-desc">
+            Badges are used to add any additional information to any content.
+            use <span class="inline-code">.badge</span> class with a contextual
+            class (like <span class="inline-code"> .badge-primary </span>
+            <span class="inline-code"> .badge-warning </span>
+            <span class="inline-code"> .badge-danger </span>
+            <span class="inline-code"> .badge-default </span> ) within
+            <span class="hLight">&lt;span&gt;</span> element to create badges.
+          </div>
+        </div>
+
+        <!-- Badge on Icons -->
+        <div class="body-block">
+          <div class="block-heading">Badge on Icons</div>
+          <hr />
+          <div class="block-desc">
+            Add <span class="inline-code">.badge</span> class to a
+            <span class="hLight">&lt;span></span> and place it inside the same
+            container or <span class="hLight">&lt;div></span> as the Icon to
+            apply it. (note: the container should be positioned relative or
+            absolute.)
+          </div>
+
+          <div class="exapmle-container">
+            <div class="elm-container">
+              <div class="icon-containter pos-rel">
+                <i class="material-icons badge-icon">chat</i>
+                <span class="badge badge-success">6</span>
+              </div>
+
+              <div class="icon-containter pos-rel">
+                <i class="material-icons badge-icon">folder</i>
+                <span class="badge badge-warning">6</span>
+              </div>
+
+              <div class="icon-containter pos-rel">
+                <i class="material-icons badge-icon">fitness_center</i>
+                <span class="badge badge-primary">6</span>
+              </div>
+
+              <div class="icon-containter pos-rel">
+                <i class="material-icons badge-icon">subscriptions</i>
+                <span class="badge badge-danger">6</span>
+              </div>
+            </div>
+
+            <div class="code-container">
+              <pre><code class="html-plaintext">&lt;div class="icon-containter pos-rel">
+  &lt;i class="material-icons"/>
+  &lt;span class="badge badge-success" > &lt;/span>
+&lt;/div>
+
+&lt;div class="icon-containter pos-rel">
+  &lt;i class="material-icons"/>
+  &lt;span class="badge badge-success" > &lt;/span>
+&lt;/div>
+
+&lt;div class="icon-containter pos-rel">
+  &lt;i class="material-icons"/>
+  &lt;span class="badge badge-success" > &lt;/span>
+&lt;/div>
+
+&lt;div class="icon-containter pos-rel">
+  &lt;i class="material-icons"/>
+  &lt;span class="badge badge-success" > &lt;/span>
+&lt;/div></code></pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- Badge on Avatars -->
+        <div class="body-block">
+          <div class="block-heading">Badge on Avatars</div>
+          <hr />
+          <div class="block-desc">
+            Add <span class="inline-code">.badge</span> class to a
+            <span class="hLight">&lt;span></span> and place it inside the same
+            container or <span class="hLight">&lt;div></span> as the avatar to
+            apply it. (note: the container should be positioned relative or
+            absolute.)
+          </div>
+          <div class="exapmle-container">
+            <div class="elm-container">
+              <div class="img-containter pos-rel">
+                <img
+                  src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png"
+                  alt="image"
+                  class="avatar-sq avatar-lg"
+                />
+                <span class="badge-st badge-success"> </span>
+              </div>
+
+              <div class="img-containter pos-rel">
+                <img
+                  src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  alt="image"
+                  class="avatar-sq avatar-lg"
+                />
+                <span class="badge-st badge-warning"> </span>
+              </div>
+
+              <div class="img-containter pos-rel">
+                <img
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  alt="image"
+                  class="avatar-sq avatar-lg"
+                />
+                <span class="badge-st badge-primary"> </span>
+              </div>
+
+              <div class="img-containter pos-rel">
+                <img
+                  src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  alt="image"
+                  class="avatar-sq avatar-lg"
+                />
+                <span class="badge-st badge-danger"> </span>
+              </div>
+            </div>
+            <div class="code-container">
+              <pre><code class="html-plaintext">&lt;div class="img-containter pos-rel">
+&lt;img
+src="https://avatar-15"
+class="avatar-sq avatar-lg"
+alt="image"
+/>
+&lt;span class="badge badge-success"> &lt;/span>
+&lt;/div>
+
+&lt;div class="img-containter pos-rel">
+&lt;img
+src="https://avatar-15"
+class="avatar-sq avatar-lg"
+alt="image"
+/>
+&lt;span class="badge badge-warning"> &lt;/span>
+&lt;/div>
+
+&lt;div class="img-containter pos-rel">
+&lt;img
+src="https://avatar-15"
+class="avatar-sq avatar-lg"
+alt="image"
+/>
+&lt;span class="badge badge-primary"> &lt;/span>
+&lt;/div>
+
+&lt;div class="img-containter pos-rel">
+&lt;img
+src="https://avatar-15"
+class="avatar-sq avatar-lg"
+alt="image"
+/>
+&lt;span class="badge badge-danger"> &lt;/span>
+&lt;/div></code></pre>
+            </div>
+          </div>
+        </div>
+        <!-- template -->
+        <!-- <div class="body-block">
+          <div class="block-heading"></div>
+          <hr />
+          <div class="block-desc">
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
