@@ -120,11 +120,10 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0.5rem;
-  font-size: 2rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
   padding: 1rem 1.5rem;
-  justify-content: center;
-  border: none;
+  border: 0.1rem solid transparent;
   cursor: pointer;
   border-radius: 0.5rem;
   transition: 350ms;
@@ -135,18 +134,9 @@
 }
 
 .btn-primary {
-  display: inline-flex;
-  justify-content: center;
-  margin: 0 0.5rem;
-  font-size: 2rem;
   background-color: white;
   color: var(--dark-primary);
   border: 0.1rem solid var(--dark-primary);
-  padding: 1rem 1.5rem;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 0.5rem;
-  transition: 350ms;
 }
 
 .btn-primary:hover {
@@ -155,18 +145,9 @@
 }
 
 .btn-warning {
-  display: inline-flex;
-  justify-content: center;
-  margin: 0 0.5rem;
-  font-size: 2rem;
   background-color: white;
   color: var(--warning);
   border: 0.1rem solid var(--warning);
-  padding: 1rem 1.5rem;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 0.5rem;
-  transition: 350ms;
 }
 
 .btn-warning:hover {
@@ -175,19 +156,9 @@
 }
 
 .btn-danger {
-  display: inline-flex;
-  justify-content: center;
-  align-content: center;
-  margin: 1rem;
-  font-size: 2rem;
   background-color: white;
   color: var(--danger);
   border: 0.1rem solid var(--danger);
-  padding: 1rem 1.5rem;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 0.5rem;
-  transition: 350ms;
 }
 
 .btn-danger:hover {
@@ -198,7 +169,7 @@
 /* -------------Button link */
 
 .btn-link {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0 1rem;
   padding-bottom: 0.2rem;
   border-bottom: 0.05rem solid white;
@@ -211,11 +182,6 @@
 
 .btn-link-primary {
   color: var(--dark-primary);
-  font-size: 2rem;
-  margin: 0 1rem;
-  padding-bottom: 0.2rem;
-  border-bottom: 0.05rem solid white;
-  transition: 360ms;
 }
 
 .btn-link-primary:hover {
@@ -224,11 +190,6 @@
 
 .btn-link-warning {
   color: var(--warning);
-  font-size: 2rem;
-  margin: 0 1rem;
-  padding-bottom: 0.2rem;
-  border-bottom: 0.05rem solid white;
-  transition: 360ms;
 }
 
 .btn-link-warning:hover {
@@ -238,11 +199,6 @@
 
 .btn-link-danger {
   color: var(--danger);
-  font-size: 2rem;
-  margin: 0 1rem;
-  padding-bottom: 0.2rem;
-  border-bottom: 0.05rem solid white;
-  transition: 360ms;
 }
 
 .btn-link-danger:hover {
@@ -252,7 +208,7 @@
 /*------------- btn-icons */
 
 .btn-icon {
-  font-size: 2.8rem !important;
+  font-size: 2.4rem !important;
   color: var(--darker);
   margin: 0 0.3rem 0 0 !important;
 }
