@@ -43,7 +43,6 @@
   width: 12rem;
 }
 
-
 /* ------------------------------------------------Snackbar */
 .snackbar-wrapper {
   display: flex;
@@ -99,6 +98,7 @@
 
 .slider {
   width: 100%;
+}
 /* ----------------------------------------- Simplified Grid */
 
 .row-ex {
@@ -550,7 +550,7 @@
 .alert-warning {
   background-color: var(--warning-shade);
 }
-  
+
 .navbar-container {
   top: 0;
   height: 6rem;
