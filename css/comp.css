@@ -363,6 +363,8 @@
   height: 30rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .card-image-hor {
@@ -385,7 +387,8 @@
   display: flex;
   margin-top: auto;
   padding: 2rem;
-  
+}
+
 .navbar-container {
   top: 0;
   height: 6rem;
