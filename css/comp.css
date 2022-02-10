@@ -7,6 +7,7 @@
   border: 0.1rem solid var(--dark);
   padding: 1rem;
   border-radius: 1rem;
+  overflow-x: scroll;
 }
 
 .elm-container {
@@ -321,7 +322,7 @@
   transition: 350ms;
   position: relative;
   z-index: 999;
-  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgb(187, 178, 178);
+  box-shadow: var(--shadow);
   transform: 360ms;
 }
 
@@ -360,14 +361,17 @@
   transition: 400ms;
   border-radius: 1rem 1rem 0 0;
 }
+
 .card-info:hover {
-  filter: brightness(96%);
+  filter: brightness(98%);
   background-color: var(--secondary);
 }
 
 .card-image img {
   width: 100%;
   border-radius: 1rem 1rem 0 0;
+  aspect-ratio: 1 /1;
+  object-fit: cover;
 }
 .card-title {
   font-family: var(--font-heading);
@@ -450,15 +454,17 @@
 /*horizontal card */
 
 .card-hImage {
-  width: 60rem;
-  height: 30rem;
+  min-width: 80rem;
+  height: 40rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .card-image-hor {
   width: 100%;
-  border-radius: 1rem 0 0 0;
+  border-radius: 1rem 0 0 1rem;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .card-right-container {
