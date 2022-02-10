@@ -297,6 +297,8 @@
 .card-image img {
   width: 100%;
   border-radius: 1rem 1rem 0 0;
+  aspect-ratio: 1 /1;
+  object-fit: cover;
 }
 .card-title {
   font-family: var(--font-heading);
@@ -379,8 +381,8 @@
 /*horizontal card */
 
 .card-hImage {
-  width: 60rem;
-  height: 30rem;
+  width: 80rem;
+  height: 40rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   aspect-ratio: 1 / 1;
@@ -390,6 +392,8 @@
 .card-image-hor {
   width: 100%;
   border-radius: 1rem 0 0 0;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .card-right-container {
