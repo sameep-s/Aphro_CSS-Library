@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation Page-Images</title>
+    <link rel="stylesheet" href="../css/comp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- topbar -->
+    <div class="topbar-container">
+      <div class="topbar-left-container">
+        <i class="material-icons">menu</i>
+        <a href="../index.html" class="topbar-logo">Aphro-UI</a>
+      </div>
+      <div class="topbar-right-container">
+        <a href="https://github.com/sameep-s/Aphro_CSS-Library"
+          ><img
+            src="../assets/images/git-mark.png"
+            class="git-logo"
+            alt="github-logo"
+        /></a>
+      </div>
+    </div>
+    <div class="main-wrapper">
+      <!-- sidebar -->
+      <div class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <div class="sidebar-heading">Getting Started</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li class="sidebar-list-item">
+                <a href="../components/docPage.html">Introduction</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-heading">Components</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li>
+                <a class="sidebar-list-item" href="../components/avatar.html"
+                  >Avatar</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/badge.html"
+                  >Badge</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/button.html"
+                  >Button</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/card.html"
+                  >Card</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/images.html"
+                  >Image</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Input</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Snackbar</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Badge</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-heading">Common Utilities</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Display Utilities</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Flex Utilities</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-body">
+        <!------------------------------------------ Images -->
+        <div class="body-block">
+          <div class="block-heading">Images</div>
+          <hr />
+          <div class="block-desc">
+            Images are an essential part of a website, it makes a website more engaging and informative.
+            use different classes so that image never overflows from the parent container. add class <span class="hLight">.img-fluid</span> to make the width of image to 100%
+            and <span class="hLight">.img-round</span> for a circular image.
+          </div>
+
+          <!-- Button simple use case -->
+          <div class="exapmle-container">
+            <div class="elm-container">
+                <div class="img-ex-conatiner">
+                    <img
+                    src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                    class="img-fluid"
+                    alt="image-fluid-example">
+
+                </div>
+                <div class="img-ex-conatiner">
+                    <img
+                    src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                    class="img-fluid img-round"
+                    alt="image-example">
+                    
+                </div>
+            </div>
+
+            <div class="code-container">
+              <pre><code class="html-plaintext">&lt;div class="img-ex-conatiner">
+    &lt;img
+    src="https://images0&q=80"
+    class="img-fluid"
+    alt="image-fluid-example">
+&lt;/div>
+
+&lt;div class="img-ex-conatiner">
+    &lt;img
+    src="https://images.u=80"
+    class="img-fluid img-round"
+    alt="image-example">
+&lt;/div></code></pre>
+            </div>
+          </div>
+        </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
