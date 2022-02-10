@@ -346,8 +346,9 @@
   transition: 400ms;
   border-radius: 1rem 1rem 0 0;
 }
+
 .card-info:hover {
-  filter: brightness(96%);
+  filter: brightness(98%);
   background-color: var(--secondary);
 }
 
