@@ -14,6 +14,7 @@
   flex-wrap: wrap;
   justify-content: start;
   margin-bottom: 3rem;
+  align-items: center;
 }
 
 /* ---------------------- Avatar -----------------------*/
@@ -96,4 +97,446 @@
 
 .list-stack:hover {
   background-color: var(--light-primary);
+=======
+/* ----------------------------------------- Simplified Grid */
+
+.row-ex {
+  width: 100%;
+  border: 0.2px solid var(--dark);
+  border-radius: 1rem;
+  font-size: 3rem;
+  color: var(--darker);
+}
+
+.col-ex {
+  display: inline-flex;
+  justify-content: center;
+  background-color: var(--dark);
+  border: 0.1rem solid var(--darker);
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+}
+/*----------------------------------- badges */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.2em;
+  right: 0.5em;
+  top: 0;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.icon-containter {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.badge-icon {
+  color: var(--darker);
+  font-size: 10rem !important;
+}
+
+.badge-st {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.2em;
+  right: 1em;
+  bottom: 0;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.badge-primary {
+  background-color: var(--dark-primary);
+  color: white;
+}
+.badge-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.badge-warning {
+  background-color: var(--warning);
+  color: var(--darker);
+}
+
+.badge-success {
+  background-color: var(--success);
+  color: var(--darker);
+}
+
+.badge-dark {
+  background-color: var(--darker);
+  color: var(--light);
+}
+
+.badge-default {
+  background-color: var(--light);
+  color: black;
+}
+
+/* ---------------------------------------------- Buttons */
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  border: 0.1rem solid transparent;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 350ms;
+}
+
+.btn:hover {
+  background-color: var(--light-primary);
+}
+
+.btn-primary {
+  background-color: white;
+  color: var(--dark-primary);
+  border: 0.1rem solid var(--dark-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--dark-primary);
+  color: white;
+}
+
+.btn-warning {
+  background-color: white;
+  color: var(--warning);
+  border: 0.1rem solid var(--warning);
+}
+
+.btn-warning:hover {
+  background-color: var(--warning);
+  color: white;
+}
+
+.btn-danger {
+  background-color: white;
+  color: var(--danger);
+  border: 0.1rem solid var(--danger);
+}
+
+.btn-danger:hover {
+  background-color: var(--danger);
+  color: white;
+}
+
+/* -------------Button link */
+
+.btn-link {
+  font-size: 1.8rem;
+  margin: 0 1rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.05rem solid white;
+  transition: 360ms;
+}
+
+.btn-link:hover {
+  border-bottom: 0.05rem solid var(--darker);
+}
+
+.btn-link-primary {
+  color: var(--dark-primary);
+}
+
+.btn-link-primary:hover {
+  border-bottom: 0.05rem solid var(--dark-primary);
+}
+
+.btn-link-warning {
+  color: var(--warning);
+}
+
+.btn-link-warning:hover {
+  border-bottom: 0.05rem solid var(--warning);
+  transition: 360ms;
+}
+
+.btn-link-danger {
+  color: var(--danger);
+}
+
+.btn-link-danger:hover {
+  border-bottom: 0.05rem solid var(--danger);
+}
+
+/*------------- btn-icons */
+
+.btn-icon {
+  font-size: 2.4rem !important;
+  color: var(--darker);
+  margin: 0 0.3rem 0 0 !important;
+}
+
+/* -------------------------------------- floating action button */
+
+.btn-flt {
+  height: 8rem;
+  width: 8rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+
+  font-size: 2rem;
+  background-color: var(--dark-primary);
+  border: none;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 350ms;
+  position: relative;
+  z-index: 999;
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgb(187, 178, 178);
+  transform: 360ms;
+}
+
+.btn-flt:hover {
+  background-color: white;
+  color: var(--dark-primary);
+}
+
+.btn-flt:hover > i {
+  color: var(--dark-primary);
+}
+
+.icon-flt {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* -------------------------------------------------------- CARDS */
+
+.card {
+  display: flex;
+  width: 35rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  margin: 5rem;
+  border: 0.1rem solid var(--dark);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  transition: 400ms;
+  border-radius: 1rem 1rem 0 0;
+}
+.card-info:hover {
+  filter: brightness(96%);
+  background-color: var(--secondary);
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.card-title {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  padding: 3rem 2rem 0 2rem;
+}
+
+.card-subtitle {
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  color: var(--darker);
+}
+
+.card-desc {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  color: var(--darker);
+  line-height: 2.4rem;
+  letter-spacing: 0.1ch;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}
+
+/* ------card badge */
+
+.card-badge {
+  top: 1rem;
+  left: 1rem;
+  background-color: var(--danger);
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1rem;
+  border-radius: 5rem;
+}
+
+.card-dismiss {
+  top: 1rem;
+  right: 0;
+  background-color: white;
+  color: var(--darker);
+  font-size: 2.5rem !important;
+  font-weight: bolder;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: 260ms;
+}
+
+.card-dismiss:hover {
+  color: var(--danger);
+}
+
+/* ----------------------------------- Text over media */
+
+.content-overMedia {
+  position: absolute;
+  padding-bottom: 1rem;
+  bottom: 0;
+}
+
+.title-overMedia {
+  font-family: var(--font-heading);
+  font-size: 2vw;
+  padding: 3rem 2rem 0 2rem;
+  color: white;
+}
+
+.card-subtitle-overMedia {
+  padding: 0.5rem 2rem;
+  font-size: 1.5vw;
+  color: white;
+  bottom: 1rem;
+}
+
+/*horizontal card */
+
+.card-hImage {
+  width: 60rem;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-image-hor {
+  width: 100%;
+  border-radius: 1rem 0 0 0;
+}
+
+.card-right-container {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info-hImage {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-buttons-hor {
+  display: flex;
+  margin-top: auto;
+  padding: 2rem;
+}
+
+/* ------------------------------------ images*/
+
+.img-ex-conatiner {
+  width: 30rem;
+  height: 30rem;
+  margin-right: 4rem;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+/* ----------------------------------------Input */
+
+.input-ex-conatiner {
+  width: 50rem;
+}
+
+.input-txt {
+  padding: 1rem;
+  margin: 0 0 0.5rem 0;
+  font: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  border: 0.1rem solid var(--dark);
+  outline-color: transparent;
+  transition: 400ms;
+}
+
+.input-txt:focus {
+  outline-color: var(--primary);
+  outline-width: 5rem;
+}
+
+.input-success {
+  border: 0.2rem solid var(--success) !important;
+  color: var(--success);
+}
+
+.input-danger {
+  border: 0.2rem solid var(--danger) !important;
+=======
+  
+.navbar-container {
+  top: 0;
+  height: 6rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.877);
+  color: var(--light);
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left-container {
+  display: flex;
+  margin-left: 1rem;
+  align-items: center;
+}
+.navbar-right-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.navbar-logo {
+  transition: 250ms;
+  font-weight: 550;
+}
+
+.navbar-logo:hover {
+  color: var(--dark);
 }
