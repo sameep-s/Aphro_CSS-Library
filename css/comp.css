@@ -286,7 +286,7 @@
 .modal-wapper {
   width: 50rem;
   font-size: 2rem;
-  border: 0.2rem solid var(--dark);
+  border: 0.2rem solid var(--darker);
   border-radius: 1rem;
   padding: 2rem;
 }
