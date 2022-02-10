@@ -43,6 +43,7 @@
   width: 12rem;
 }
 
+
 /* ---------------------------------------Text util */
 
 .txt-container {
@@ -98,6 +99,7 @@
 .list-stack:hover {
   background-color: var(--light-primary);
 }
+
 
 /* ------------------------------------------------Snackbar */
 .snackbar-wrapper {
@@ -155,6 +157,7 @@
 .slider {
   width: 100%;
   }
+
 /* ----------------------------------------- Simplified Grid */
 
 .row-ex {
@@ -564,8 +567,8 @@
 
 .input-danger {
   border: 0.2rem solid var(--danger) !important;
-  }
-  
+}
+
 .navbar-container {
   top: 0;
   height: 6rem;
