@@ -1,5 +1,27 @@
 /* utility css file */
 
+/* -----------------------------positioning */
+
+.pos-stat {
+  position: static;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.pos-fix {
+  position: fixed;
+}
+
+.pos-stick {
+  position: sticky;
+}
+
 /*------------------------------ padding */
 
 .p-1 {
@@ -20,71 +42,71 @@
 
 /* padding top */
 .pt-1 {
-  padding: 1rem;
+  padding-top: 1rem;
 }
 
 .pt-2 {
-  padding: 2rem;
+  padding-top: 2rem;
 }
 
 .pt-3 {
-  padding: 3rem;
+  padding-top: 3rem;
 }
 
 .pt-4 {
-  padding: 4rem;
+  padding-top: 4rem;
 }
 
 /* padding right */
 .pr-1 {
-  padding: 1rem;
+  padding-right: 1rem;
 }
 
 .pr-2 {
-  padding: 2rem;
+  padding-right: 2rem;
 }
 
 .pr-3 {
-  padding: 3rem;
+  padding-right: 3rem;
 }
 
 .pr-4 {
-  padding: 4rem;
+  padding-right: 4rem;
 }
 
 /* padding bottom */
 .pb-1 {
-  padding: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-2 {
-  padding: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pb-3 {
-  padding: 3rem;
+  padding-bottom: 3rem;
 }
 
 .pb-4 {
-  padding: 4rem;
+  padding-bottom: 4rem;
 }
 
 /* padding left */
 
 .pl-1 {
-  padding: 1rem;
+  padding-left: 1rem;
 }
 
 .pl-2 {
-  padding: 2rem;
+  padding-left: 2rem;
 }
 
 .pl-3 {
-  padding: 3rem;
+  padding-left: 3rem;
 }
 
 .pl-4 {
-  padding: 4rem;
+  padding-left: 4rem;
 }
 
 /*------------------------------------ margin */
@@ -107,71 +129,71 @@
 
 /* margin top */
 .mt-1 {
-  margin: 1rem;
+  margin-top: 1rem;
 }
 
 .mt-2 {
-  margin: 2rem;
+  margin-top: 2rem;
 }
 
 .mt-3 {
-  margin: 3rem;
+  margin-top: 3rem;
 }
 
 .mt-4 {
-  margin: 4rem;
+  margin-top: 4rem;
 }
 
 /* margin right */
 .mr-1 {
-  margin: 1rem;
+  margin-right: 1rem;
 }
 
 .mr-2 {
-  margin: 2rem;
+  margin-right: 2rem;
 }
 
 .mr-3 {
-  margin: 3rem;
+  margin-right: 3rem;
 }
 
 .mr-4 {
-  margin: 4rem;
+  margin-right: 4rem;
 }
 
 /* margin bottom */
 .mb-1 {
-  margin: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mb-2 {
-  margin: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mb-3 {
-  margin: 3rem;
+  margin-bottom: 3rem;
 }
 
 .mb-4 {
-  margin: 4rem;
+  margin-bottom: 4rem;
 }
 
 /* margin left */
 
 .ml-1 {
-  margin: 1rem;
+  margin-left: 1rem;
 }
 
 .ml-2 {
-  margin: 2rem;
+  margin-left: 2rem;
 }
 
 .ml-3 {
-  margin: 3rem;
+  margin-left: 3rem;
 }
 
 .ml-4 {
-  margin: 4rem;
+  margin-left: 4rem;
 }
 
 /*------------------------------------ wrapper */
