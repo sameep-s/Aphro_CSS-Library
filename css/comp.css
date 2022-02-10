@@ -382,12 +382,10 @@
 /*horizontal card */
 
 .card-hImage {
-  width: 80rem;
+  min-width: 80rem;
   height: 40rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
 }
 
 .card-image-hor {
