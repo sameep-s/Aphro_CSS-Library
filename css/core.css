@@ -15,6 +15,7 @@
   --code-link: rgb(226, 81, 81);
   --font-heading: "Raleway", sans-serif;
   --font-body: "Oxygen", sans-serif;
+  --shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(187, 178, 178, 0.247);
 }
 html {
   font-size: 62.5%;
