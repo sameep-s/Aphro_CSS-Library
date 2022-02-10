@@ -111,7 +111,7 @@ li:hover {
   font-size: 2rem;
   font-family: Work Sans, sans-serif;
   font-weight: bold;
-  line-height: 140%;
+  line-height: 145%;
   letter-spacing: 0.2rem;
   width: 100%;
   margin-top: 2rem;
@@ -124,7 +124,6 @@ li:hover {
 .inline-code {
   background-color: var(--dark);
   border-radius: 0.5rem;
-  padding: 0.15rem;
   display: inline-flex;
   align-items: center;
 }
