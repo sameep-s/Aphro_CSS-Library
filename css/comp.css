@@ -43,6 +43,80 @@
   width: 12rem;
 }
 
+/* ------------------------------------------------Snackbar */
+.snackbar-wrapper {
+  display: flex;
+  background-color: var(--darker);
+  width: 60rem;
+  padding: 1.5rem;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.snack-text {
+  font-size: 1.8rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.snack-btn-wrap {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.snack-btn {
+  display: inline-flex;
+  background-color: transparent;
+  border: none;
+  margin-left: 2rem;
+  font-size: 1.8rem;
+  color: var(--primary);
+  align-items: center;
+  transition: 260ms;
+}
+
+.snack-close {
+  transition: 260ms;
+}
+
+.snack-b1:hover {
+  color: var(--dark-primary);
+}
+
+.snack-close:hover {
+  color: var(--danger) !important;
+}
+
+/*-------------------------------------------Slider  */
+
+.slider-wrapper {
+  width: 50rem;
+}
+
+.slider {
+  width: 100%;
+}
+/* ----------------------------------------- Simplified Grid */
+
+.row-ex {
+  width: 100%;
+  border: 0.2px solid var(--dark);
+  border-radius: 1rem;
+  font-size: 3rem;
+  color: var(--darker);
+}
+
+.col-ex {
+  display: inline-flex;
+  justify-content: center;
+  background-color: var(--dark);
+  border: 0.1rem solid var(--darker);
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+}
 /*----------------------------------- badges */
 
 .badge {
@@ -120,6 +194,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+
   margin: 0.5rem;
   font-size: 1.5rem;
   padding: 1rem 1.5rem;
@@ -182,6 +257,11 @@
 
 .btn-link-primary {
   color: var(--dark-primary);
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.05rem solid white;
+  transition: 360ms;
 }
 
 .btn-link-primary:hover {
@@ -190,6 +270,11 @@
 
 .btn-link-warning {
   color: var(--warning);
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.05rem solid white;
+  transition: 360ms;
 }
 
 .btn-link-warning:hover {
@@ -199,6 +284,11 @@
 
 .btn-link-danger {
   color: var(--danger);
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.05rem solid white;
+  transition: 360ms;
 }
 
 .btn-link-danger:hover {
@@ -247,6 +337,219 @@
 .icon-flt {
   margin: 0 !important;
   padding: 0 !important;
+}
+
+
+/* -------------------------------------------------------- CARDS */
+
+.card {
+  display: flex;
+  width: 35rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  margin: 5rem;
+  border: 0.1rem solid var(--dark);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  transition: 400ms;
+  border-radius: 1rem 1rem 0 0;
+}
+.card-info:hover {
+  filter: brightness(96%);
+  background-color: var(--secondary);
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.card-title {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  padding: 3rem 2rem 0 2rem;
+}
+
+.card-subtitle {
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  color: var(--darker);
+}
+
+.card-desc {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  color: var(--darker);
+  line-height: 2.4rem;
+  letter-spacing: 0.1ch;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}
+
+/* ------card badge */
+
+.card-badge {
+  top: 1rem;
+  left: 1rem;
+  background-color: var(--danger);
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1rem;
+  border-radius: 5rem;
+}
+
+.card-dismiss {
+  top: 1rem;
+  right: 0;
+  background-color: white;
+  color: var(--darker);
+  font-size: 2.5rem !important;
+  font-weight: bolder;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: 260ms;
+}
+
+.card-dismiss:hover {
+  color: var(--danger);
+}
+
+/* ----------------------------------- Text over media */
+
+.content-overMedia {
+  position: absolute;
+  padding-bottom: 1rem;
+  bottom: 0;
+}
+
+.title-overMedia {
+  font-family: var(--font-heading);
+  font-size: 2vw;
+  padding: 3rem 2rem 0 2rem;
+  color: white;
+}
+
+.card-subtitle-overMedia {
+  padding: 0.5rem 2rem;
+  font-size: 1.5vw;
+  color: white;
+  bottom: 1rem;
+}
+
+/*horizontal card */
+
+.card-hImage {
+  width: 60rem;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-image-hor {
+  width: 100%;
+  border-radius: 1rem 0 0 0;
+}
+
+.card-right-container {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info-hImage {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-buttons-hor {
+  display: flex;
+  margin-top: auto;
+  padding: 2rem;
+}
+
+/* ------------------------------------ images*/
+
+.img-ex-conatiner {
+  width: 30rem;
+  height: 30rem;
+  margin-right: 4rem;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+/* ----------------------------------------Input */
+
+.input-ex-conatiner {
+  width: 50rem;
+}
+
+.input-txt {
+  padding: 1rem;
+  margin: 0 0 0.5rem 0;
+  font: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  border: 0.1rem solid var(--dark);
+  outline-color: transparent;
+  transition: 400ms;
+}
+
+.input-txt:focus {
+  outline-color: var(--primary);
+  outline-width: 5rem;
+}
+
+.input-success {
+  border: 0.2rem solid var(--success) !important;
+  color: var(--success);
+}
+
+.input-danger {
+  border: 0.2rem solid var(--danger) !important;
+}
+
+/* --------------------------------------------alert */
+
+.alert {
+  width: 60rem;
+  padding: 1.4rem;
+  font-size: 2rem;
+  color: var(--darker);
+  background-color: var(--dark-shade);
+  border: 0.1rem solid var(--dark);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.alert-success {
+  background-color: var(--success-shade);
+}
+
+.alert-danger {
+  background-color: var(--danger-shade);
+}
+
+.alert-warning {
+  background-color: var(--warning-shade);
 }
 
 .navbar-container {
