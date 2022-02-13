@@ -49,21 +49,57 @@
   width: 100%;
 }
 
-.txt-heading {
-  font-family: var(--font-heading) !important;
+.h-1 {
+  font-family: var(--font-heading);
+  font-size: 5rem;
+}
+
+.h-2 {
+  font-family: var(--font-heading);
   font-size: 4rem;
 }
 
-.txt-sm {
-  font-size: 1.5rem !important;
+.h-3 {
+  font-family: var(--font-heading);
+  font-size: 3.4rem;
 }
 
-.txt-grey {
+.h-4 {
+  font-family: var(--font-heading);
+  font-size: 2.8rem;
+}
+
+.h-5 {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+}
+
+.fw-light {
+  font-weight: lighter;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-bolder {
+  font-weight: bolder;
+}
+
+.txt-sm {
+  font-size: 1.5rem;
+}
+
+.txt-gray {
   color: grey;
 }
 
 .txt-center {
   text-align: center;
+}
+
+.txt-end {
+  text-align: end;
 }
 
 /*------------------------------------------- List */
