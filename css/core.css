@@ -3,18 +3,24 @@
 
 :root {
   --primary: #12b9e0;
-  --light-primary: #b8edfc7a;
+  --primary-shade: #12bae025;
+  --light-primary: #b8edfc6e;
   --dark-primary: #0797b8;
   --secondary: #fdffff;
   --success: #51ff49;
-  --warning: #faff49;
+  --success-shade: #52ff4967;
+  --warning: #ffdc40;
+  --warning-shade: #ffdc4070;
   --danger: #ff4949;
+  --danger-shade: #ff494962;
   --light: #f3ecec;
   --dark: #e6dedea8;
-  --darker: #918b8b;
+  --dark-shade: #e6dede34;
+  --darker: #585757;
   --code-link: rgb(226, 81, 81);
   --font-heading: "Raleway", sans-serif;
   --font-body: "Oxygen", sans-serif;
+  --shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(187, 178, 178, 0.247);
 }
 html {
   font-size: 62.5%;
