@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation Card-button</title>
+    <link rel="stylesheet" href="../css/comp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- topbar -->
+    <div class="topbar-container">
+      <div class="topbar-left-container">
+        <i class="material-icons">menu</i>
+        <a href="../index.html" class="topbar-logo">Aphro-UI</a>
+      </div>
+      <div class="topbar-right-container">
+        <a href="https://github.com/sameep-s/Aphro_CSS-Library"
+          ><img
+            src="../assets/images/git-mark.png"
+            class="git-logo"
+            alt="github-logo"
+        /></a>
+      </div>
+    </div>
+    <div class="main-wrapper">
+      <!-- sidebar -->
+      <div class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <div class="sidebar-heading">Getting Started</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li class="sidebar-list-item">
+                <a href="../components/docPage.html">Introduction</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-heading">Components</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li>
+                <a class="sidebar-list-item" href="../components/avatar.html"
+                  >Avatar</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/badge.html"
+                  >Badge</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/button.html"
+                  >Button</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/card.html"
+                  >Card</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Image</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Input</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Snackbar</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Badge</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-heading">Common Utilities</div>
+          <hr />
+          <div class="link-container">
+            <ul>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Display Utilities</a
+                >
+              </li>
+              <li>
+                <a class="sidebar-list-item" href="../components/docPage.html"
+                  >Flex Utilities</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-body">
+
+        <!------------------------------------------ Card-intro -->
+        <!------------------------------------- Card Basic -->
+        <div class="body-block">
+          <div class="block-heading">Card</div>
+          <hr />
+          <div class="block-desc">
+            A <span class="hLight">card</span> is a bordered box with some
+            padding around its content. It includes options for headers,
+            footers, content, colors, etc.
+          </div>
+
+          <div class="exapmle-container">
+            <div class="elm-container">
+              <div class="card">
+                <div class="card-info">
+                  <div class="card-image">
+                    <img
+                      src="https://images.unsplash.com/photo-1621277224630-81d9af65e40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                      alt="stockImage"
+                    />
+                  </div>
+                  <div class="card-content">
+                    <div class="card-title">1. Basic</div>
+                    <div class="card-subtitle">By Sameep Sharma</div>
+                  </div>
+                  <div class="card-desc">
+                    Lorem ipsum dolor sit.
+                  </div>
+                </div>
+
+                <div class="card-buttons">
+                  <button class="btn btn-primary">Yes, I'm in</button>
+                  <button class="btn">No thanks</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="code-container">
+              <pre><code class="html-plaintext">&lt;!--Basic card template (ever template has shadow by default)  -->
+&lt;div class="card">
+&lt;div class="card-info">
+&lt;div class="card-image">
+    &lt;img
+    src="https://images070&q=80"
+    alt="stockImage"
+    />
+&lt;/div>
+&lt;div class="card-content">
+    &lt;div class="card-title">1. Basic&lt;/div>
+    &lt;div class="card-subtitle">By Sameep Sharma&lt;/div>
+&lt;/div>
+&lt;div class="card-desc">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Autem, cupiditate doloremque dolorem deserunt mollitia
+    ratione adipisci aut aliquid dolor. 1.Basic 2.Text 3.casnc
+    4.gibberish
+&lt;/div>
+&lt;/div>
+
+&lt;div class="card-buttons">
+&lt;button class="btn btn-primary">Primary&lt;/button>
+&lt;button class="btn btn-primary">Secondary&lt;/button>
+&lt;/div>
+                    </div>
+              </code></pre>
+            </div>
+          </div>
+
+        <!------------------------------------- Card with badge -->
+        <div class="body-block">
+            <div class="block-heading">Card With badge</div>
+            <hr />
+
+            <div class="exapmle-container">
+              <div class="elm-container">
+                <div class="card">
+                  <div class="card-info">
+                    <div class="card-image pos-rel">
+                      <img
+                        src="https://images.unsplash.com/photo-1621277224630-81d9af65e40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        alt="stockImage"
+                      />
+                      <div class="card-badge pos-abs">Must visit</div>
+                    </div>
+                    <div class="card-content">
+                      <div class="card-title">Badge</div>
+                      <div class="card-subtitle">By Sameep Sharma</div>
+                    </div>
+                    <div class="card-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Autem, cupiditate doloremque dolorem deserunt mollitia
+                      ratione adipisci aut aliquid dolor. 1.Basic 2.Text 3.casnc
+                      4.gibberish
+                    </div>
+                  </div>
+  
+                  <div class="card-buttons">
+                    <button class="btn btn-primary">Yes, I'm in</button>
+                    <button class="btn">No thanks</button>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="code-container">
+                <pre><code class="html-plaintext"> &lt;!--Card template with badge (ever template has shadow by default)  -->
+&lt;div class="card">
+  &lt;div class="card-info">
+  &lt;div class="card-image pos-rel">
+      &lt;img
+      src="https://images70&q=80"
+      alt="stockImage"
+      />
+      &lt;!-- add class "card-badge" to get the badge on the card  -->
+      &lt;div class="card-badge pos-abs">Must visit&lt;/div>
+
+  &lt;/div>
+  &lt;div class="card-content">
+      &lt;div class="card-title">1. Basic&lt;/div>
+      &lt;div class="card-subtitle">By Sameep Sharma&lt;/div>
+  &lt;/div>
+  &lt;div class="card-desc">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Autem, cupiditate doloremque dolorem deserunt mollitia
+      ratione adipisci aut aliquid dolor. 1.Basic 2.Text 3.casnc
+      4.gibberish
+  &lt;/div>
+  &lt;/div>
+  
+  &lt;div class="card-buttons">
+  &lt;button class="btn btn-primary">Primary&lt;/button>
+  &lt;button class="btn btn-primary">Secondary&lt;/button>
+  &lt;/div>
+</div></code></pre> </div>     
+  
+  
+        </div>
+
+
+                <!------------------------------------------- Card with dismiss -->
+        <div class="body-block">
+            <div class="block-heading">Card With Dismiss</div>
+            <hr />
+
+            <div class="exapmle-container">
+                <div class="elm-container">
+                <div class="card">
+                    <div class="card-info">
+                    <div class="card-image pos-rel">
+                        <img
+                        src="https://images.unsplash.com/photo-1621277224630-81d9af65e40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        alt="stockImage"
+                        />
+                        <i class="material-icons card-dismiss pos-abs">close</i>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">Dismiss</div>
+                        <div class="card-subtitle">By Sameep Sharma</div>
+                    </div>
+                    <div class="card-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Autem, cupiditate doloremque dolorem deserunt mollitia
+                        ratione adipisci aut aliquid dolor. 1.Basic 2.Text 3.casnc
+                        4.gibberish
+                    </div>
+                    </div>
+    
+                    <div class="card-buttons">
+                    <button class="btn btn-primary">Yes, I'm in</button>
+                    <button class="btn">No thanks</button>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="code-container">
+                <pre><code class="html-plaintext"> &lt;!--Card template with dismiss (ever template has shadow by default)  -->
+&lt;div class="card">
+    &lt;div class="card-info">
+    &lt;div class="card-image pos-rel">
+        &lt;img
+        src="https://images70&q=80"
+        alt="stockImage"
+        />
+        &lt;!-- add class "card-dismiss" to get the badge on the card  -->
+        &lt;i class="card-badge pos-abs">Must visit&lt;/i>
+
+    &lt;/div>
+    &lt;div class="card-content">
+        &lt;div class="card-title">1. Basic&lt;/div>
+        &lt;div class="card-subtitle">By Sameep Sharma&lt;/div>
+    &lt;/div>
+    &lt;div class="card-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Autem, cupiditate doloremque dolorem deserunt mollitia
+        ratione adipisci aut aliquid dolor. 1.Basic 2.Text 3.casnc
+        4.gibberish
+    &lt;/div>
+    &lt;/div>
+    
+    &lt;div class="card-buttons">
+    &lt;button class="btn btn-primary">Primary&lt;/button>
+    &lt;button class="btn btn-primary">Secondary&lt;/button>
+    &lt;/div>
+</div></code></pre> </div>     
+    
+    
+            </div>
+
+        <!--------------------------------- cards text overlay -->
+        <div class="body-block">
+            <div class="block-heading">Card With Text Overlay</div>
+            <hr />
+            <div class="exapmle-container">
+                <div class="elm-container">
+                <div class="card">
+                    <div class="card-info">
+                        <div class="img-title pos-rel">
+                            <div class="card-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1621277224630-81d9af65e40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                alt="stockImage"
+                            />
+                            </div>
+                            <div class="card-content content-overMedia">
+                            <div class="card-title title-overMedia">2. Text Over Media</div>
+                            <div class="card-subtitle-overMedia">By Sameep Sharma</div>
+                            </div>
+                        </div>
+                
+                        <div class="card-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+                            cupiditate doloremque dolorem deserunt mollitia ratione adipisci aut
+                            aliquid dolor.
+                        </div>
+                        </div>
+    
+                    <div class="card-buttons">
+                    <button class="btn btn-primary">Yes, I'm in</button>
+                    <button class="btn">No thanks</button>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="code-container">
+                <pre><code class="html-plaintext"> &lt;!--Card template with Text Overlay (ever template has shadow by default)  -->
+&lt;div class="card">
+    &lt;div class="card-info">
+        &lt;div class="img-title pos-rel">
+            &lt;div class="card-image">
+            &lt;img
+                src="https://images.unsplash.com/photo-1621277224630-81d9af65e40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                alt="stockImage"
+            />
+            &lt;/div>
+            &lt;div class="card-content content-overMedia">
+            &lt;div class="card-title title-overMedia">2. Text Over Media&lt;/div>
+            &lt;div class="card-subtitle-overMedia">By Sameep Sharma&lt;/div>
+            &lt;/div>
+        &lt;/div>
+
+        &lt;div class="card-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+            cupiditate doloremque dolorem deserunt mollitia ratione adipisci aut
+            aliquid dolor.
+        &lt;/div>
+        &lt;/div>
+
+    &lt;div class="card-buttons">
+    &lt;button class="btn btn-primary">Yes, I'm in&lt;/button>
+    &lt;button class="btn">No thanks&lt;/button>
+    &lt;/div>
+&lt;/div>
+</div></code></pre> </div>     
+    
+    
+            </div>
+        
+        
+        <!---------------------------------------- Text only cards -->
+        <div class="body-block">
+            <div class="block-heading">Text only Card</div>
+            <hr />  
+            <div class="exapmle-container">
+                <div class="elm-container">
+                <div class="card">
+                    <div class="card-info">
+                    <div class="card-content">
+                        <div class="card-title">Text Only</div>
+                        <div class="card-subtitle">By Sameep Sharma</div>
+                    </div>
+                    <div class="card-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Autem, cupiditate doloremque dolorem deserunt mollitia
+                        ratione adipisci aut aliquid dolor. 1.Basic 2.Text 3.casnc
+                        4.gibberish
+                    </div>
+                    </div>
+    
+                    <div class="card-buttons">
+                    <button class="btn btn-primary">Yes, I'm in</button>
+                    <button class="btn">No thanks</button>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="code-container">
+                <pre><code class="html-plaintext">&lt;!-- Card with Text only (ever template has shadow by default)  -->
+&lt;div class="card">
+    &lt;div class="card-info">
+    &lt;div class="card-content">
+        &lt;div class="card-title">Text Only&lt;/div>
+        &lt;div class="card-subtitle">By Sameep Sharma&lt;/div>
+    &lt;/div>
+    &lt;div class="card-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Autem, cupiditate doloremque dolorem deserunt mollitia
+        ratione adipisci aut aliquid dolor. 1.Basic 2.Text 3.casnc
+        4.gibberish
+    &lt;/div>
+    &lt;/div>
+
+    &lt;div class="card-buttons">
+    &lt;button class="btn btn-primary">Yes, I'm in&lt;/button>
+    &lt;button class="btn">No thanks&lt;/button>
+    &lt;/div>
+&lt;/div>                    
+                        </div>
+                </code></pre>
+                </div>
+            </div>
+        
+
+        <!------------------------------------ card with horizontal images-->
+        <div class="body-block">
+            <div class="block-heading">Horizontal Card</div>
+            <hr />  
+            <div class="exapmle-container">
+                <div class="elm-container">
+                <div class="card card-hImage">
+                    <div >
+                        <div>
+                            <img
+                                src="https://images.unsplash.com/photo-1621277224630-81d9af65e40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                class="card-image-hor
+                                alt="stockImage"
+                            />
+                        </div>
+                    </div>
+                    <div class="card-right-container">
+                        <div class="card-info-hImage">
+                        <div class="card-title">Horizontal Card</div>
+                        <div class="card-subtitle">By Sameep Sharma</div>
+                    </div>
+                        
+                        <div class="card-buttons-hor">
+                            <button class="btn btn-primary">Yes, I'm in</button>
+                            <button class="btn">No thanks</button>
+                    </div>  
+                    </div>
+
+                </div>
+    
+                <div class="code-container">
+                <pre><code class="html-plaintext">&lt;!--Horizontal card Template (ever template has shadow by default)  -->
+&lt;div class="card card-hImage">
+    &lt;div >
+        &lt;div>
+            &lt;img
+                src="https://images.unsplash.com/photo-1621277224630-81d9af65e40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                class="card-image-hor
+                alt="stockImage"
+            />
+            &lt;/div>
+    &lt;/div>
+    &lt;div class="card-right-container">
+        &lt;div class="card-info-hImage">
+        &lt;div class="card-title">Horizontal Card&lt;/div>
+        &lt;div class="card-subtitle">By Sameep Sharma&lt;/div>
+    &lt;/div>
+    
+    &lt;div class="card-buttons-hor">
+    &lt;button class="btn btn-primary">Primary&lt;/button>
+    &lt;button class="btn btn-primary">Secondary&lt;/button>
+    &lt;/div></div></code></pre>
+</div>
+            </div>
+            </div>
+
+        </div>
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>

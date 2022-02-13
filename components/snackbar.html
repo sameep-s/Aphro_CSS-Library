@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documentation Page- Navigation</title>
+    <title>Documentation Page - Snackbar.</title>
     <link rel="stylesheet" href="../css/comp.css" />
     <link
       rel="stylesheet"
@@ -75,6 +75,11 @@
                 >
               </li>
               <li>
+                <a class="sidebar-list-item" href="../components/slider.html"
+                  >Slider</a
+                >
+              </li>
+              <li>
                 <a class="sidebar-list-item" href="../components/docPage.html"
                   >Snackbar</a
                 >
@@ -106,50 +111,45 @@
         </div>
       </div>
       <div class="main-body">
-        <!-- Navigation-intro -->
+        <!-- Avatar-intro -->
         <div class="body-block">
-          <div class="block-heading">Navigation</div>
+          <div class="block-heading">Snackbar</div>
           <hr />
           <div class="block-desc">
-            Navigation is used by user to naviagte to diferent parts of website
-            and it is a very important part of any website. follow the below
-            code example to get a fluid navbar easily.
+            Snackbars are used to notify the user about an event that occured.
           </div>
         </div>
 
         <div class="body-block">
-          <div class="block-heading">Basic Example</div>
+          <div class="block-heading">Basic Snackbar</div>
           <hr />
+          <div class="block-desc">
+            Follow the below mentioned code example to create a snackbar.
+          </div>
           <div class="exapmle-container">
             <div class="elm-container">
-              <div class="navbar-container">
-                <div class="navbar-left-container">
-                  <i class="material-icons">menu</i>
-                  <div class="navbar-logo">
-                  BrandName
-                  </div>
+              <div class="snackbar-wrapper">
+                <div class="snack-text">
+                  Can't send photo. Retry in 5 seconds.
                 </div>
-                <div class="navbar-right-container">
-                    <img
-                      src="../assets/images/git-mark.png"
-                      class="git-logo"
-                      alt="github-logo"
-                  /></a>
+                <div class="snack-btn-wrap">
+                  <button class="snack-btn">RETRY</button>
+                  <button class="snack-btn">
+                    <i class="material-icons snack-close">close</i>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="code-container">
-              <pre><code class="html-plaintext">&lt;div class="navbar-container">
-&lt;div class="navbar-left-container">
-    &lt;i class="material-icons">menu&lt;/i>
-    BrandName
+              <pre><code class="html-plaintext">&lt;div class="snackbar-wrapper">
+&lt;div class="snack-text">
+    Can't send photo. Retry in 5 seconds.
 &lt;/div>
-&lt;div class="navbar-right-container">
-    &lt;img
-        src="../assets/images/git-mark.png"
-        class="git-logo"
-        alt="github-logo"
-    />&lt;/a>
+&lt;div class="snack-btn-wrap">
+    &lt;button class="snack-btn">RETRY&lt;/button>
+    &lt;button class="snack-btn">
+    &lt;i class="material-icons snack-close">close&lt;/i>
+    &lt;/button>
 &lt;/div>
 &lt;/div></code></pre>
             </div>
