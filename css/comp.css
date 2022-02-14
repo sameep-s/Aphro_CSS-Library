@@ -340,7 +340,6 @@
   padding: 0 !important;
 }
 
-
 /* -------------------------------------------------------- CARDS */
 
 .card {
@@ -595,7 +594,7 @@
 .modal-wapper {
   width: 50rem;
   font-size: 2rem;
-  border: 0.2rem solid var(--darker);
+  border: 0.2rem solid var(--dark);
   border-radius: 1rem;
   background-color: white;
   padding: 2rem;
@@ -658,4 +657,3 @@
   justify-content: end;
   margin-top: 2rem;
 }
-
