@@ -1,6 +1,7 @@
 @import "./core.css";
 @import "./docPage.css";
 @import "./util.css";
+@import "./rating.css";
 
 .exapmle-container {
   background-color: white;
