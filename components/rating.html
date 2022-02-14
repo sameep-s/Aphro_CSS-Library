@@ -7,6 +7,7 @@
     <title>Rating</title>
     <link rel="stylesheet" href="../css/core.css" />
     <link rel="stylesheet" href="../css/docPage.css" />
+    <link rel="stylesheet" href="../css/comp.css" />
 
     <link
       rel="stylesheet"
@@ -17,7 +18,7 @@
       rel="stylesheet"
     />
 
-    <!-- font-awesome -->
+    font-awesome
     <script
       src="https://kit.fontawesome.com/cf440b9885.js"
       crossorigin="anonymous"
@@ -171,27 +172,30 @@
         </div>
         <!-- block 1 -->
         <div class="body-block">
-          <div class="block-heading">Basic Snackbar</div>
+          <div class="block-heading">Rating Exapmple</div>
           <hr />
           <div class="block-desc">
-            Follow the below mentioned code example to create a snackbar.
+            Follow the below mentioned code example to create a rating component
+            for your project.
           </div>
           <div class="exapmle-container">
             <div class="elm-container">
-              <div class="snackbar-wrapper">
-                <div class="snack-text">
-                  Can't send photo. Retry in 5 seconds.
-                </div>
-                <div class="snack-btn-wrap">
-                  <button class="snack-btn">RETRY</button>
-                  <button class="snack-btn">
-                    <i class="material-icons snack-close">close</i>
-                  </button>
-                </div>
+              <div class="rating-wrapper">
+                <div class="fa-regular fa-star rating-star"></div>
+                <div class="fa-regular fa-star rating-star"></div>
+                <div class="fa-regular fa-star rating-star"></div>
+                <div class="fa-regular fa-star rating-star"></div>
+                <div class="fa-regular fa-star rating-star"></div>
               </div>
             </div>
             <div class="code-container">
-              <pre><code class="html-plaintext"></code></pre>
+              <pre><code class="html-plaintext">&lt;div class="rating-wrapper">
+  &lt;div class="fa-regular fa-star rating-star">&lt;/div>
+  &lt;div class="fa-regular fa-star rating-star">&lt;/div>
+  &lt;div class="fa-regular fa-star rating-star">&lt;/div>
+  &lt;div class="fa-regular fa-star rating-star">&lt;/div>
+  &lt;div class="fa-regular fa-star rating-star">&lt;/div>
+&lt;/div></code></pre>
             </div>
           </div>
         </div>
