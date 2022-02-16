@@ -9,6 +9,6 @@
   color: #808080;
 }
 
-rating-wrapper > div:hover {
+.rating-wrapper > div:hover {
   color: yellow;
 }
