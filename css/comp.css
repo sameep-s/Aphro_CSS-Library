@@ -44,6 +44,100 @@
   width: 12rem;
 }
 
+
+/* ---------------------------------------Text util */
+
+.txt-container {
+  font-size: 2rem;
+  width: 100%;
+}
+
+.h-1 {
+  font-family: var(--font-heading);
+  font-size: 5rem;
+}
+
+.h-2 {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+}
+
+.h-3 {
+  font-family: var(--font-heading);
+  font-size: 3.4rem;
+}
+
+.h-4 {
+  font-family: var(--font-heading);
+  font-size: 2.8rem;
+}
+
+.h-5 {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+}
+
+.fw-light {
+  font-weight: lighter;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-bolder {
+  font-weight: bolder;
+}
+
+.txt-sm {
+  font-size: 1.5rem;
+}
+
+.txt-gray {
+  color: grey;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-end {
+  text-align: end;
+}
+
+/*------------------------------------------- List */
+
+.list {
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 0.6rem;
+  border-bottom: 0.1rem solid var(--dark);
+  transition: 250ms;
+}
+
+.list:hover {
+  border-bottom: 0.1rem solid var(--dark-primary);
+}
+
+.list-container-stack {
+  border: 0.1rem solid var(--darker);
+  border-radius: 1rem;
+}
+
+.list-stack {
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 0.6rem;
+  border-bottom: 0.1rem solid var(--dark);
+  border-radius: 1rem;
+  transition: 250ms;
+}
+
+.list-stack:hover {
+  background-color: var(--light-primary);
+}
+
+
 /* ------------------------------------------------Snackbar */
 .snackbar-wrapper {
   display: flex;
@@ -99,7 +193,8 @@
 
 .slider {
   width: 100%;
-}
+  }
+
 /* ----------------------------------------- Simplified Grid */
 
 .row-ex {

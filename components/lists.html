@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documentation Page- Text Utilities</title>
+    <title>Documentation Page- Lists</title>
     <link rel="stylesheet" href="../css/comp.css" />
     <link
       rel="stylesheet"
@@ -99,7 +99,11 @@
           <div class="link-container">
             <ul>
               <li class="list-item-sidebar">
-                <a href="../components/displayUtil.html">Display Utilities</a>
+                <a
+                  class="list-item-sidebar"
+                  href="../components/displayUtil.html"
+                  >Display Utilities</a
+                >
               </li>
               <li class="list-item-sidebar">
                 <a href="../components/flexUtil.html">Flex Utilities</a>
@@ -112,79 +116,65 @@
       <div class="main-body">
         <!-- Avatar-intro -->
         <div class="body-block">
-          <div class="block-heading">Text Utilities</div>
+          <div class="block-heading">Lists</div>
           <hr />
           <div class="block-desc">
-            Some basic Text Utilities which may come in handy while writing code
+            Some basic List styles which may come in handy while writing code
             for your project.
           </div>
         </div>
 
-        <!-- Heading -->
         <div class="body-block">
-          <div class="block-heading">Heading</div>
+          <div class="block-heading">Basic Example</div>
           <hr />
+          <div class="block-desc">
+            Add <span class="inline-code">.list</span> class to
+            <span class="hLight">&lt;li></span> to give it the basic list
+            styling.
+          </div>
           <div class="exapmle-container">
             <div class="elm-container">
-              <div class="txt-container">
-                <div class="h-1">This is Text Heading.</div>
-                <div class="h-2">This is Text Heading.</div>
-                <div class="h-3">This is Text Heading.</div>
-                <div class="h-4">This is Text Heading.</div>
-                <div class="h-5">This is Text Heading.</div>
+              <div class="list-container">
+                <ul>
+                  <li class="list">List item 1</li>
+                  <li class="list">List item 2</li>
+                  <li class="list">List item 3</li>
+                  <li class="list">List item 4</li>
+                </ul>
               </div>
             </div>
             <div class="code-container">
-              <pre><code class="html-plaintext">&lt;div class="h-1">This is Text Heading.&lt;/div>
-&lt;div class="h-2">This is Text Heading.&lt;/div>
-&lt;div class="h-3">This is Text Heading.&lt;/div>
-&lt;div class="h-4">This is Text Heading.&lt;/div>
-&lt;div class="h-5">This is Text Heading.&lt;/div>
-              </code></pre>
+              <pre><code class="html-plaintext">&lt;li class="list">List item 1&lt;/li>
+&lt;li class="list">List item 2&lt;/li>
+&lt;li class="list">List item 3&lt;/li>
+&lt;li class="list">List item 4&lt;/li></code></pre>
             </div>
           </div>
         </div>
 
-        <!-- font-weight -->
+        <!-- Stacked List -->
         <div class="body-block">
-          <div class="block-heading">Font Weight</div>
+          <div class="block-heading">Stacked List</div>
           <hr />
-          <div class="exapmle-container">
-            <div class="elm-container">
-              <div class="txt-container">
-                <div class="fw-light h-3">This is light Text.</div>
-                <div class="fw-bold h-3">This is bold Text.</div>
-                <div class="fw-bolder h-3">This is bolder Text.</div>
-              </div>
-            </div>
-            <div class="code-container">
-              <pre><code class="html-plaintext">&lt;div class="fw-light">This is light Text.&lt;/div>
-&lt;div class="fw-bold">This is bold Text.&lt;/div>
-&lt;div class="fw-bolder">This is bolder Text.&lt;/div>
-              </code></pre>
-            </div>
+          <div class="block-desc">
+            Add <span class="inline-code">.list-stacked</span> class to
+            <span class="hLight">&lt;li></span> to give it the stacked list
+            styling.
           </div>
-        </div>
-
-        <!-- text align -->
-        <div class="body-block">
-          <div class="block-heading">Text Align</div>
-          <hr />
           <div class="exapmle-container">
             <div class="elm-container">
-              <div class="txt-container">
-                <div class="h-5 txt-center">
-                  This is Text Aligned in center.
-                </div>
-                <div class="h-5 txt-end">This is Text Aligned at the end.</div>
-                <div class="h-5 txt-gray">This is Gray Text .</div>
+              <div class="list-container-stack">
+                <li class="list-stack">Stacked-List item 1</li>
+                <li class="list-stack">Stacked-List item 2</li>
+                <li class="list-stack">Stacked-List item 3</li>
+                <li class="list-stack">Stacked-List item 4</li>
               </div>
             </div>
             <div class="code-container">
-              <pre><code class="html-plaintext">&lt;div class="txt-center">This is Text Aligned in center.&lt;/div>
-&lt;div class="txt-end">This is Text Aligned at the end.&lt;/div>
-&lt;div class="txt-gray">This is Gray Text .&lt;/div>
-              </code></pre>
+              <pre><code class="html-plaintext">&lt;li class="list-stack">List item 1&lt;/li>
+&lt;li class="list-stack">List item 2&lt;/li>
+&lt;li class="list-stack">List item 3&lt;/li>
+&lt;li class="list-stack">List item 4&lt;/li></code></pre>
             </div>
           </div>
         </div>
