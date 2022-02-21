@@ -12,7 +12,7 @@ Aphro is a CSS library which is used to create aesthetically pleasing, productio
 Copy and paste the below command into you terminal in a desired repository to run this app locally.
 
 ```bash
-https://github.com/sameep-s/Aphro_CSS-Library.git
+git clone https://github.com/sameep-s/Aphro_CSS-Library.git
 ```
 
 # Features
