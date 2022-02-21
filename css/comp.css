@@ -558,6 +558,7 @@
   background-color: var(--warning-shade);
 }
 
+/* --------------------------------------------------- Navigation */
 .navbar-container {
   top: 0;
   height: 6rem;
@@ -657,4 +658,36 @@
   display: flex;
   justify-content: end;
   margin-top: 2rem;
+}
+
+/*------------------------------------------- List */
+
+.list {
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 0.6rem;
+  border-bottom: 0.1rem solid var(--dark);
+  transition: 250ms;
+}
+
+.list:hover {
+  border-bottom: 0.1rem solid var(--dark-primary);
+}
+
+.list-container-stack {
+  border: 0.1rem solid var(--darker);
+  border-radius: 1rem;
+}
+
+.list-stack {
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 0.6rem;
+  border-bottom: 0.1rem solid var(--dark);
+  /* border-radius: 1rem; */
+  transition: 250ms;
+}
+
+.list-stack:hover {
+  background-color: var(--light-primary);
 }

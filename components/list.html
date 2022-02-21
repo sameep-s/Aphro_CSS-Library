@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documentation Page-Slider</title>
+    <title>Documentation Page- Lists</title>
     <link rel="stylesheet" href="../css/comp.css" />
     <link
       rel="stylesheet"
@@ -31,7 +31,7 @@
         /></a>
       </div>
     </div>
-    <main class="main-wrapper">
+    <div class="main-wrapper">
       <!-- sidebar -->
       <nav class="sidebar-wrapper">
         <div class="sidebar-content">
@@ -137,37 +137,74 @@
           </div>
         </div>
       </nav>
+
       <div class="main-body">
         <!-- Avatar-intro -->
         <div class="body-block">
-          <div class="block-heading">Slider</div>
+          <div class="block-heading">Lists</div>
           <hr />
           <div class="block-desc">
-            Slider are used to help user set a particular range.
+            Some basic List styles which may come in handy while writing code
+            for your project.
           </div>
         </div>
 
         <div class="body-block">
-          <div class="block-heading">Basic Slider</div>
+          <div class="block-heading">Basic Example</div>
           <hr />
           <div class="block-desc">
-            Follow the below mentioned code example to create a slider.
+            Add <span class="inline-code">.list</span> class to
+            <span class="hLight">&lt;li></span> to give it the basic list
+            styling.
           </div>
           <div class="exapmle-container">
             <div class="elm-container">
-              <div class="slider-wrapper">
-                <input type="range" min="1" max="100" step="1" class="slider" />
+              <div class="list-container">
+                <ul>
+                  <li class="list">List item 1</li>
+                  <li class="list">List item 2</li>
+                  <li class="list">List item 3</li>
+                  <li class="list">List item 4</li>
+                </ul>
               </div>
             </div>
             <div class="code-container">
-              <pre><code class="html-plaintext">&lt;div class="slider-wrapper">
-    &lt;input type="range" min="1" max="1000" step="1" class="slider" />
-&lt;/div></code></pre>
+              <pre><code class="html-plaintext">&lt;li class="list">List item 1&lt;/li>
+&lt;li class="list">List item 2&lt;/li>
+&lt;li class="list">List item 3&lt;/li>
+&lt;li class="list">List item 4&lt;/li></code></pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stacked List -->
+        <div class="body-block">
+          <div class="block-heading">Stacked List</div>
+          <hr />
+          <div class="block-desc">
+            Add <span class="inline-code">.list-stacked</span> class to
+            <span class="hLight">&lt;li></span> to give it the stacked list
+            styling.
+          </div>
+          <div class="exapmle-container">
+            <div class="elm-container">
+              <div class="list-container-stack">
+                <li class="list-stack">Stacked-List item 1</li>
+                <li class="list-stack">Stacked-List item 2</li>
+                <li class="list-stack">Stacked-List item 3</li>
+                <li class="list-stack">Stacked-List item 4</li>
+              </div>
+            </div>
+            <div class="code-container">
+              <pre><code class="html-plaintext">&lt;li class="list-stack">List item 1&lt;/li>
+&lt;li class="list-stack">List item 2&lt;/li>
+&lt;li class="list-stack">List item 3&lt;/li>
+&lt;li class="list-stack">List item 4&lt;/li></code></pre>
             </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
