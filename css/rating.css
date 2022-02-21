@@ -1,0 +1,14 @@
+.rating-wrapper {
+  width: 100%;
+  display: flex;
+  transition: 360ms;
+}
+
+.rating-wrapper > div {
+  font-size: 3rem;
+  color: #808080;
+}
+
+.rating-wrapper > div:hover {
+  color: yellow;
+}
