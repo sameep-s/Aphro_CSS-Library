@@ -45,7 +45,6 @@
   width: 12rem;
 }
 
-
 /* ---------------------------------------Text util */
 
 .txt-container {
@@ -138,7 +137,6 @@
   background-color: var(--light-primary);
 }
 
-
 /* ------------------------------------------------Snackbar */
 .snackbar-wrapper {
   display: flex;
@@ -190,11 +188,21 @@
 
 .slider-wrapper {
   width: 50rem;
+  display: flex;
+}
+
+.slider-val {
+  font-size: 2rem;
+}
+
+.slider-val-cont {
+  margin-left: 2rem;
+  width: 5rem;
 }
 
 .slider {
   width: 100%;
-  }
+}
 
 /* ----------------------------------------- Simplified Grid */
 

@@ -51,7 +51,7 @@
 
 .aphro-name {
   font-family: "Comforter", cursive;
-  font-size: 12vw;
+  font-size: 12rem;
   margin-top: 5rem;
 }
 
@@ -99,4 +99,18 @@
 .btn-default:hover {
   color: black;
   background-color: var(--dark);
+}
+
+/* ------------------------------------------- Media queries */
+
+@media screen and (max-width: 780px) {
+  .content-desc {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .content-desc {
+    width: 80%;
+  }
 }
