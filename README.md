@@ -1,7 +1,7 @@
 # Aphro_CSS-Library ![image](https://user-images.githubusercontent.com/36707002/155007360-7270456b-b6a3-415a-8182-71ab6c3e28c6.png) ![image](https://user-images.githubusercontent.com/36707002/155007376-d69b719a-f92e-4bf0-94c2-cab86ead7cef.png)
 
 
-Aphro is a CSS library which is aesthetically pleasing library which can be used to write fast production ready code.
+Aphro is a CSS library which is used to create aesthetically pleasing, production ready code in a fast pace.
 
 
 # Deployment Status Check
@@ -36,9 +36,9 @@ https://github.com/sameep-s/Aphro_CSS-Library.git
 
 # Screenshots
 
-![Screenshot (112)](https://user-images.githubusercontent.com/36707002/155007839-cdeb6c36-95bd-4e47-891b-b690c7693ba8.png)
-![Screenshot (113)](https://user-images.githubusercontent.com/36707002/155007828-df498078-c6e2-4870-86e3-f24468c41625.png)
-![Screenshot (114)](https://user-images.githubusercontent.com/36707002/155007830-84e55623-1f5d-4c73-96fc-9c30047bf93a.png)
-![Screenshot (115)](https://user-images.githubusercontent.com/36707002/155007833-ec0f9c52-48be-4f4b-b4ea-503397175a02.png)
-![Screenshot (116)](https://user-images.githubusercontent.com/36707002/155007835-22711548-5c72-4f5c-ba73-d3b8291218df.png)
+![Screenshot (116)](https://user-images.githubusercontent.com/36707002/155008184-5e4f3807-a246-4e22-a0ba-9b336bb79c4c.png)
+![Screenshot (112)](https://user-images.githubusercontent.com/36707002/155008163-a4da9f0f-ff71-448b-9727-0a4515c8de8e.png)
+![Screenshot (113)](https://user-images.githubusercontent.com/36707002/155008174-a08b5a73-d925-4c34-837b-363cb74a2780.png)
+![Screenshot (114)](https://user-images.githubusercontent.com/36707002/155008177-c4461c62-0acf-40f4-9159-43b8e2e474b0.png)
+![Screenshot (115)](https://user-images.githubusercontent.com/36707002/155008181-5cd9dbf2-aa26-4223-aa5d-95e89837968b.png)
 
