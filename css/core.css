@@ -3,8 +3,8 @@
 
 :root {
   --primary: #12b9e0;
-  --light: #ffffff;
-  --dark: #5A5A5A;
+  --theme-light: #ffffff;
+  --theme-dark: #5A5A5A;
   --primary-shade: #12bae025;
   --light-primary: #b8edfc6e;
   --dark-primary: #0797b8;
